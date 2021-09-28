@@ -67,8 +67,10 @@ int main(int argc, char* argv[]) {
     Out(c, ofst1);
 
 //    // The 2nd part of task
-//    ofstream ofst2(argv[4]);
-//    ofst2 << "Perimeter sum = " << PerimeterSum(c) << "\n";
+    ofstream ofst2(argv[4]);
+    RemoveItemsWithAreaBiggerThanAverage(c);
+    ofst2 << "Items with area lower than average:\n";
+    Out(c, ofst2);
 
     Clear(c);
     cout << "Stop"<< endl;

@@ -46,7 +46,7 @@ void Out(triangle &t, ofstream &ofst) {
 }
 
 //------------------------------------------------------------------------------
-// Вычисление периметра треугольника
+// Вычисление площади треугольника
 double Area(triangle &t) {
     double a = SideFromPoints(t.x1, t.y1, t.x2, t.y2);
     double b = SideFromPoints(t.x1, t.y1, t.x3, t.y3);

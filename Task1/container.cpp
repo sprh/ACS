@@ -48,3 +48,31 @@ void Out(container &c, ofstream &ofst) {
         Out(*(c.cont[i]), ofst);
     }
 }
+
+// Среднее арифметическое площади фигур.
+double AverageArea(container &c) {
+    double sum = 0;
+    for (int i = 0; i < c.len; i++) {
+        sum += Area(*(c.cont[i]));
+    }
+    return sum / c.len;
+}
+
+// Удалить из контейнера те элементы, для которых значение, полу-
+// ченное с использованием функции, общей для всех альтернатив,
+// больше чем среднее арифметическое для всех элементов контейнера, полученное с ис-
+// пользованием этой же функции. Остальные элементы передвинуть в началу контейнера
+// с сохранением порядка.
+void RemoveItemsWithAreaBiggerThanAverage(container &c) {
+    int currentLen = 0;
+    double averageArea = AverageArea(c);
+    for (int i = 0; i < c.len; i ++) {
+        if (Area(*(c.cont[i])) <= averageArea) {
+            c.cont[currentLen] = c.cont[i];
+            ++currentLen;
+        } else {
+            delete c.cont[i];
+        }
+    }
+    c.len = currentLen;
+}

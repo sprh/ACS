@@ -75,7 +75,7 @@ void Out(shape &s, ofstream &ofst) {
 }
 
 //------------------------------------------------------------------------------
-// Вычисление периметра фигуры
+// Вычисление площади фигуры
 double Area(shape &s) {
     switch(s.k) {
         case shape::RECTANGLE:
@@ -88,3 +88,5 @@ double Area(shape &s) {
             return 0.0;
     }
 }
+
+
