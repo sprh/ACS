@@ -31,6 +31,6 @@ shape *InRnd();
 void Out(shape &s, ofstream &ofst);
 
 // Вычисление периметра обобщенной фигуры
-double Perimeter(shape &s);
+double Area(shape &s);
 
 #endif

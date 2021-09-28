@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/circle.cpp">
+			<Option target="task01"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/circle.h">
+			<Option target="task01"/>
+		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/color.h">
 			<Option target="task01"/>
 		</Unit>

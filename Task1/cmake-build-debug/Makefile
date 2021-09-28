@@ -129,6 +129,30 @@ task01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/build
 .PHONY : task01/fast
 
+circle.o: circle.cpp.o
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
 container.o: container.cpp.o
 .PHONY : container.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... task01"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
 	@echo "... container.o"
 	@echo "... container.i"
 	@echo "... container.s"

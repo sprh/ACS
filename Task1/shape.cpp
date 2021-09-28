@@ -64,13 +64,13 @@ void Out(shape &s, ofstream &ofst) {
 
 //------------------------------------------------------------------------------
 // Вычисление периметра фигуры
-double Perimeter(shape &s) {
+double Area(shape &s) {
     switch(s.k) {
         case shape::RECTANGLE:
-            return Perimeter(s.r);
+            return Area(s.r);
             break;
         case shape::TRIANGLE:
-            return Perimeter(s.t);
+            return Area(s.t);
             break;
         default:
             return 0.0;
