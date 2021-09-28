@@ -22,6 +22,11 @@ shape* In(ifstream &ifst) {
             sp->k = shape::TRIANGLE;
             In(sp->t, ifst);
             return sp;
+        case 3:
+            sp = new shape;
+            sp->k = shape::CIRCLE;
+            In(sp->c, ifst);
+            return sp;
         default:
             return 0;
     }
@@ -42,6 +47,11 @@ shape *InRnd() {
             sp->k = shape::TRIANGLE;
             InRnd(sp->t);
             return sp;
+        case 3:
+            sp = new shape();
+            sp->k = shape::CIRCLE;
+            InRnd(sp->c);
+            return sp;
         default:
             return 0;
     }
@@ -57,6 +67,8 @@ void Out(shape &s, ofstream &ofst) {
         case shape::TRIANGLE:
             Out(s.t, ofst);
             break;
+        case shape::CIRCLE:
+            Out(s.c, ofst);
         default:
             ofst << "Incorrect figure!" << endl;
     }
@@ -68,10 +80,10 @@ double Area(shape &s) {
     switch(s.k) {
         case shape::RECTANGLE:
             return Area(s.r);
-            break;
         case shape::TRIANGLE:
             return Area(s.t);
-            break;
+        case shape::CIRCLE:
+            return Area(s.c);
         default:
             return 0.0;
     }

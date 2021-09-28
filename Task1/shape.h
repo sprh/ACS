@@ -7,17 +7,19 @@
 
 #include "rectangle.h"
 #include "triangle.h"
+#include "circle.h"
 
 //------------------------------------------------------------------------------
 // структура, обобщающая все имеющиеся фигуры
 struct shape {
     // значения ключей для каждой из фигур
-    enum key {RECTANGLE, TRIANGLE};
+    enum key {RECTANGLE, TRIANGLE, CIRCLE};
     key k; // ключ
     // используемые альтернативы
     union { // используем простейшую реализацию
         rectangle r;
         triangle t;
+        circle c;
     };
 };
 

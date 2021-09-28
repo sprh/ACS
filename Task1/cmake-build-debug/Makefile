@@ -153,6 +153,30 @@ circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
+color.o: color.cpp.o
+.PHONY : color.o
+
+# target to build an object file
+color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/color.cpp.o
+.PHONY : color.cpp.o
+
+color.i: color.cpp.i
+.PHONY : color.i
+
+# target to preprocess a source file
+color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/color.cpp.i
+.PHONY : color.cpp.i
+
+color.s: color.cpp.s
+.PHONY : color.s
+
+# target to generate assembly for a file
+color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/color.cpp.s
+.PHONY : color.cpp.s
+
 container.o: container.cpp.o
 .PHONY : container.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
+	@echo "... color.o"
+	@echo "... color.i"
+	@echo "... color.s"
 	@echo "... container.o"
 	@echo "... container.i"
 	@echo "... container.s"

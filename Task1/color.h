@@ -14,22 +14,6 @@ enum color {
     purple,
 };
 
-color ColorFromNumber(int& number) {
-    switch (number) {
-        case 1:
-            return red;
-        case 2:
-            return orange;
-        case 3:
-            return yellow;
-        case 4:
-            return green;
-        case 5:
-            return lightblue;
-        case 6:
-            return darkblue;
-        default:
-            return purple;
-    }
-}
+// Получение цвета из номера
+color ColorFromNumber(int& colorNumber);
 #endif //__color__

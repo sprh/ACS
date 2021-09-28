@@ -12,17 +12,19 @@ set(BINARY_DIR "${CMAKE_BINARY_DIR}")
 # Source files list
 set(SOURCE_FILES
     # Headers
-    rnd.h
-    triangle.h
-    rectangle.h
-    shape.h
-    container.h
+        rnd.h
+        triangle.h
+        rectangle.h
+        shape.h
+        container.h
         color.h
+        circle.h
     # Sources
-    triangle.cpp
-    rectangle.cpp
-    shape.cpp
-    container.cpp
-    main.cpp circle.cpp circle.h)
+        triangle.cpp
+        rectangle.cpp
+        shape.cpp
+        container.cpp
+        main.cpp
+        circle.cpp color.cpp)
 
 add_executable(task01 ${SOURCE_FILES})
