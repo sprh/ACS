@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="task01">
-				<Option output="/Users/sprh.t/Downloads/01-proc-c++/bin/task01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/../bin"/>
+				<Option output="/Users/sprh.t/Documents/HSEPI/ACS/Task1/bin/task01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 task01"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 task01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="task01/fast">
-				<Option output="/Users/sprh.t/Downloads/01-proc-c++/bin/task01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/../bin"/>
+				<Option output="/Users/sprh.t/Documents/HSEPI/ACS/Task1/bin/task01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,47 +73,47 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 task01/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 task01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/color.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/color.h">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/container.cpp">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.cpp">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/container.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.h">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/main.cpp">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/main.cpp">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/rectangle.cpp">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/rectangle.cpp">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/rectangle.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/rectangle.h">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/rnd.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/rnd.h">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/shape.cpp">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.cpp">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/shape.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.h">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/triangle.cpp">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.cpp">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/triangle.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.h">
 			<Option target="task01"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Downloads/01-proc-c++/CMakeLists.txt">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

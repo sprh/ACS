@@ -8,12 +8,17 @@
 #include <fstream>
 using namespace std;
 
-# include "rnd.h"
+#include "rnd.h"
+#include "color.h"
+#include "math.h"
 
 //------------------------------------------------------------------------------
 // треугольник
 struct triangle {
-    int a, b, c; // стороны
+    int x1, y1; // координаты первой стороны
+    int x2, y2; // координаты второй стороны
+    int x3, y3; // координаты третьей стороны
+    color c; // цвет
 };
 
 // Ввод параметров треугольника из файла
@@ -26,6 +31,9 @@ void InRnd(triangle &е);
 void Out(triangle &t, ofstream &ofst);
 
 // Вычисление периметра треугольника
-double Perimeter(triangle &t);
+double Area(triangle &t);
+
+// Длина стороны из 2 точек
+double SideFromPoints(int x1, int y1, int x2, int y2);
 
 #endif //__triangle__

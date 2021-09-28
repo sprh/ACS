@@ -17,8 +17,10 @@ void In(rectangle &r, ifstream &ifst) {
 void InRnd(rectangle &r) {
     r.x1 = Random();
     r.y1 = Random();
-    r.x2 = Random();
-    r.y2 = Random();
+    do {
+        r.x2 = Random();
+        r.y2 = Random();
+    } while (!(r.x1 < r.x2 && r.y1 > r.y2));
     r.c = RandomColor();
 }
 
@@ -26,7 +28,8 @@ void InRnd(rectangle &r) {
 // Вывод параметров прямоугольника в форматируемый поток
 void Out(rectangle &r, ofstream &ofst) {
     ofst << "It is Rectangle: x1 = " << r.x1 << ", y1 = " << r.y1 <<
-    "x2 = " << r.x2 << "y2 = " << r.y2 << ".  Area = " << Area(r) << "\n";
+    ", x2 = " << r.x2 << ", y2 = " << r.y2 << ", color = " << r.c <<
+    ".  Area = " << Area(r) << "\n";
 }
 
 //------------------------------------------------------------------------------

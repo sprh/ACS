@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sprh.t/Downloads/01-proc-c++/container.cpp" "/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/CMakeFiles/task01.dir/container.cpp.o"
-  "/Users/sprh.t/Downloads/01-proc-c++/main.cpp" "/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/CMakeFiles/task01.dir/main.cpp.o"
-  "/Users/sprh.t/Downloads/01-proc-c++/rectangle.cpp" "/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/CMakeFiles/task01.dir/rectangle.cpp.o"
-  "/Users/sprh.t/Downloads/01-proc-c++/shape.cpp" "/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/CMakeFiles/task01.dir/shape.cpp.o"
-  "/Users/sprh.t/Downloads/01-proc-c++/triangle.cpp" "/Users/sprh.t/Downloads/01-proc-c++/cmake-build-debug/CMakeFiles/task01.dir/triangle.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/CMakeFiles/task01.dir/container.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task1/main.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/CMakeFiles/task01.dir/main.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task1/rectangle.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/CMakeFiles/task01.dir/rectangle.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/CMakeFiles/task01.dir/shape.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task1/cmake-build-debug/CMakeFiles/task01.dir/triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
