@@ -48,8 +48,6 @@ int main(int argc, char* argv[]) {
                  << ". Set 0 < number <= 10000\n";
             return 3;
         }
-        // системные часы в качестве инициализатора
-        srand(static_cast<unsigned int>(time(0)));
         // Заполнение контейнера генератором случайных чисел
         InRnd(c, size);
     }
