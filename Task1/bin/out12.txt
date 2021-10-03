@@ -1,0 +1,4 @@
+Items with area lower than average:
+Container contains 1 elements.
+0: It is a Circle: x = 4, y =0, radius = 0, color = 0. Area = 0
+Incorrect figure!

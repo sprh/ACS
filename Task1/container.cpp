@@ -46,6 +46,7 @@ void Out(container &c, ofstream &ofst) {
     for(int i = 0; i < c.len; i++) {
         ofst << i << ": ";
         Out(*(c.cont[i]), ofst);
+        ofst << "\n";
     }
 }
 

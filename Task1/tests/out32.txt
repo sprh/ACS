@@ -1,0 +1,2 @@
+Items with area lower than average:
+Container contains 0 elements.

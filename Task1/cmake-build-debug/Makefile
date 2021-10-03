@@ -153,30 +153,6 @@ circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
-color.o: color.cpp.o
-.PHONY : color.o
-
-# target to build an object file
-color.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/color.cpp.o
-.PHONY : color.cpp.o
-
-color.i: color.cpp.i
-.PHONY : color.i
-
-# target to preprocess a source file
-color.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/color.cpp.i
-.PHONY : color.cpp.i
-
-color.s: color.cpp.s
-.PHONY : color.s
-
-# target to generate assembly for a file
-color.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/color.cpp.s
-.PHONY : color.cpp.s
-
 container.o: container.cpp.o
 .PHONY : container.o
 
@@ -200,6 +176,30 @@ container.s: container.cpp.s
 container.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/container.cpp.s
 .PHONY : container.cpp.s
+
+extensions.o: extensions.cpp.o
+.PHONY : extensions.o
+
+# target to build an object file
+extensions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/extensions.cpp.o
+.PHONY : extensions.cpp.o
+
+extensions.i: extensions.cpp.i
+.PHONY : extensions.i
+
+# target to preprocess a source file
+extensions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/extensions.cpp.i
+.PHONY : extensions.cpp.i
+
+extensions.s: extensions.cpp.s
+.PHONY : extensions.s
+
+# target to generate assembly for a file
+extensions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task01.dir/build.make CMakeFiles/task01.dir/extensions.cpp.s
+.PHONY : extensions.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -309,12 +309,12 @@ help:
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
-	@echo "... color.o"
-	@echo "... color.i"
-	@echo "... color.s"
 	@echo "... container.o"
 	@echo "... container.i"
 	@echo "... container.s"
+	@echo "... extensions.o"
+	@echo "... extensions.i"
+	@echo "... extensions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

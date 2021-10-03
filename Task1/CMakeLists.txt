@@ -17,14 +17,12 @@ set(SOURCE_FILES
         rectangle.h
         shape.h
         container.h
-        color.h
         circle.h
     # Sources
         triangle.cpp
         rectangle.cpp
         shape.cpp
-        container.cpp
         main.cpp
-        circle.cpp color.cpp)
+        circle.cpp extensions.h extensions.cpp container.cpp)
 
 add_executable(task01 ${SOURCE_FILES})

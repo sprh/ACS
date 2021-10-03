@@ -8,13 +8,16 @@
 #include "rectangle.h"
 #include "triangle.h"
 #include "circle.h"
+#include "extensions.h"
 
 //------------------------------------------------------------------------------
 // структура, обобщающая все имеющиеся фигуры
 struct shape {
     // значения ключей для каждой из фигур
     enum key {RECTANGLE, TRIANGLE, CIRCLE};
+    enum color {RED, ORANGE, YELLOW, GREEN, LIGHTBLUE, DARKBLUE, PURPLE};
     key k; // ключ
+    color col; // цвет
     // используемые альтернативы
     union { // используем простейшую реализацию
         rectangle r;

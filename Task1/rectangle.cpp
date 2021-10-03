@@ -8,9 +8,12 @@
 //------------------------------------------------------------------------------
 // Ввод параметров прямоугольника из файла
 void In(rectangle &r, ifstream &ifst) {
-    int colorNumber;
-    ifst >> r.x1 >> r.y1 >> r.x2 >> r.y2 >> colorNumber;
-    r.c = ColorFromNumber(colorNumber);
+    string x1, x2, y1, y2, colorNumber;
+    ifst >> x1 >> y1 >> x2 >> y2 >> colorNumber;
+    r.x1 = StringToInt(x1);
+    r.x2 = StringToInt(x2);
+    r.y1 = StringToInt(y1);
+    r.y2 = StringToInt(y2);
 }
 
 // Случайный ввод параметров прямоугольника
@@ -21,15 +24,14 @@ void InRnd(rectangle &r) {
         r.x2 = Random();
         r.y2 = Random();
     } while (!(r.x1 < r.x2 && r.y1 > r.y2));
-    r.c = RandomColor();
 }
 
 //------------------------------------------------------------------------------
 // Вывод параметров прямоугольника в форматируемый поток
 void Out(rectangle &r, ofstream &ofst) {
     ofst << "It is Rectangle: x1 = " << r.x1 << ", y1 = " << r.y1 <<
-    ", x2 = " << r.x2 << ", y2 = " << r.y2 << ", color = " << r.c <<
-    ".  Area = " << Area(r) << "\n";
+    ", x2 = " << r.x2 << ", y2 = " << r.y2 <<
+    ". Area = " << Area(r);
 }
 
 //------------------------------------------------------------------------------

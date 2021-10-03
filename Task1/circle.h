@@ -8,13 +8,12 @@
 using namespace std;
 
 #include "rnd.h"
-#include "color.h"
 #include "math.h"
+#include "extensions.h"
 
 struct circle {
     int x, y; // координаты центра.
     int radius; // радиус.
-    color c; // цвет.
 };
 
 // Ввод параметров круга из файла

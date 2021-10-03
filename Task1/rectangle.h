@@ -9,13 +9,12 @@
 using namespace std;
 
 # include "rnd.h"
-# include "color.h"
+#include "extensions.h"
 
 // прямоугольник
 struct rectangle {
     int x1, y1; // первая точка.
     int x2, y2; // вторая точка.
-    color c; // цвет фигуры.
 };
 
 // Ввод параметров прямоугольника из файла
