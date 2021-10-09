@@ -10,9 +10,10 @@ using namespace std;
 #include "rnd.h"
 #include "math.h"
 #include "extensions.h"
+#include "point.h"
 
 struct circle {
-    int x, y; // координаты центра.
+    point center;// координаты центра.
     int radius; // радиус.
 };
 

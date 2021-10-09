@@ -23,6 +23,6 @@ set(SOURCE_FILES
         rectangle.cpp
         shape.cpp
         main.cpp
-        circle.cpp extensions.h extensions.cpp container.cpp)
+        circle.cpp extensions.h extensions.cpp container.cpp point.h)
 
 add_executable(task01 ${SOURCE_FILES})

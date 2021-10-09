@@ -101,6 +101,9 @@
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/main.cpp">
 			<Option target="task01"/>
 		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h">
+			<Option target="task01"/>
+		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task1/rectangle.cpp">
 			<Option target="task01"/>
 		</Unit>

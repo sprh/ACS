@@ -5,12 +5,14 @@ CMakeFiles/task01.dir/circle.cpp.o: \
  ../circle.cpp \
  ../circle.h \
  ../extensions.h \
+ ../point.h \
  ../rnd.h
 CMakeFiles/task01.dir/container.cpp.o: \
  ../circle.h \
  ../container.cpp \
  ../container.h \
  ../extensions.h \
+ ../point.h \
  ../rectangle.h \
  ../rnd.h \
  ../shape.h \
@@ -23,18 +25,21 @@ CMakeFiles/task01.dir/main.cpp.o: \
  ../container.h \
  ../extensions.h \
  ../main.cpp \
+ ../point.h \
  ../rectangle.h \
  ../rnd.h \
  ../shape.h \
  ../triangle.h
 CMakeFiles/task01.dir/rectangle.cpp.o: \
  ../extensions.h \
+ ../point.h \
  ../rectangle.cpp \
  ../rectangle.h \
  ../rnd.h
 CMakeFiles/task01.dir/shape.cpp.o: \
  ../circle.h \
  ../extensions.h \
+ ../point.h \
  ../rectangle.h \
  ../rnd.h \
  ../shape.cpp \
@@ -42,6 +47,7 @@ CMakeFiles/task01.dir/shape.cpp.o: \
  ../triangle.h
 CMakeFiles/task01.dir/triangle.cpp.o: \
  ../extensions.h \
+ ../point.h \
  ../rnd.h \
  ../triangle.cpp \
  ../triangle.h

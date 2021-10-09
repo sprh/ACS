@@ -10,32 +10,32 @@
 void In(rectangle &r, ifstream &ifst) {
     string x1, x2, y1, y2, colorNumber;
     ifst >> x1 >> y1 >> x2 >> y2 >> colorNumber;
-    r.x1 = StringToInt(x1);
-    r.x2 = StringToInt(x2);
-    r.y1 = StringToInt(y1);
-    r.y2 = StringToInt(y2);
+    r.p1.x = StringToInt(x1);
+    r.p1.y = StringToInt(y1);
+    r.p2.x = StringToInt(x2);
+    r.p2.y = StringToInt(y2);
 }
 
 // Случайный ввод параметров прямоугольника
 void InRnd(rectangle &r) {
-    r.x1 = Random();
-    r.y1 = Random();
+    r.p1.x = Random();
+    r.p1.y = Random();
     do {
-        r.x2 = Random();
-        r.y2 = Random();
-    } while (!(r.x1 < r.x2 && r.y1 > r.y2));
+        r.p2.x = Random();
+        r.p2.y = Random();
+    } while (!(r.p1.x < r.p2.y && r.p1.y > r.p2.y));
 }
 
 //------------------------------------------------------------------------------
 // Вывод параметров прямоугольника в форматируемый поток
 void Out(rectangle &r, ofstream &ofst) {
-    ofst << "It is Rectangle: x1 = " << r.x1 << ", y1 = " << r.y1 <<
-    ", x2 = " << r.x2 << ", y2 = " << r.y2 <<
+    ofst << "It is Rectangle: x1 = " << r.p1.x << ", y1 = " << r.p1.y <<
+    ", x2 = " << r.p2.x << ", y2 = " << r.p2.y <<
     ". Area = " << Area(r);
 }
 
 //------------------------------------------------------------------------------
 // Вычисление площади прямоугольника
 double Area(rectangle &r) {
-    return 0.5 * (r.x2 - r.x1) * (r.y1 - r.y2);
+    return 0.5 * (r.p2.x - r.p1.x) * (r.p1.y - r.p2.y);
 }

@@ -10,11 +10,11 @@ using namespace std;
 
 # include "rnd.h"
 #include "extensions.h"
+#include "point.h"
 
 // прямоугольник
 struct rectangle {
-    int x1, y1; // первая точка.
-    int x2, y2; // вторая точка.
+    point p1, p2;
 };
 
 // Ввод параметров прямоугольника из файла

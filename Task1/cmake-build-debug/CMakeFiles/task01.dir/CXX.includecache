@@ -15,6 +15,12 @@ math.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/math.h
 extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+point.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.cpp
+container.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/container.h
 shape.h
@@ -40,6 +46,12 @@ cstring
 container.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/container.h
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
+iostream
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/iostream
+cstring
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/cstring
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/rectangle.h
 fstream
 -
@@ -47,9 +59,19 @@ rnd.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/rnd.h
 extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+point.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/rnd.h
 cstdlib
+-
+extensions.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.cpp
+shape.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.h
+iostream
 -
 extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
@@ -64,6 +86,10 @@ circle.h
 extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.cpp
+triangle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.h
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.h
 fstream
 -
@@ -73,4 +99,6 @@ math.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/math.h
 extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+point.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
 
