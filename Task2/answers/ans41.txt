@@ -1,0 +1,5 @@
+Filled container:
+Container contains 3 elements.
+0: It is Rectangle: (x: 2, y: 3), (x: 0, y: 5). Color: red. Area = 2.
+1: It is Rectangle: (x: 2, y: 3), (x: 0, y: 5). Color: red. Area = 2.
+2: It is Rectangle: (x: 2, y: 3), (x: 0, y: 5). Color: red. Area = 2.

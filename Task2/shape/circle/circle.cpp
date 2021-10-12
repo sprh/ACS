@@ -9,6 +9,7 @@ void Circle::In(ifstream *ifst) {
     int colorNumber = ReadInt(ifst);
     center.x = ReadInt(ifst);
     center.y = ReadInt(ifst);
+    radius = ReadInt(ifst);
     color = Color::GetColor(colorNumber);
 }
 

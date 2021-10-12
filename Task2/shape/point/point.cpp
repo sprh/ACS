@@ -1,7 +1,7 @@
 #include "point.h"
 
 void Point::Out(ofstream *ofst) {
-    *ofst << "(x:" << x << ", y: " << y << ")";
+    *ofst << "(x: " << x << ", y: " << y << ")";
 }
 
 double Point::SideFromPoints(const Point& p1, const Point& p2) {
