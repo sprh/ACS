@@ -5,8 +5,11 @@
 using std::ofstream;
 
 class Point {
+public:
     int x, y; // Координаты
-    virtual void Out(ofstream &ofst) = 0;
+    Point(): x(0), y(0) {}
+    Point(int x, int y): x(x), y(y) {};
+    void Out(ofstream &ofst);
 };
 
 

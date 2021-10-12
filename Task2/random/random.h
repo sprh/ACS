@@ -2,6 +2,7 @@
 #define TASK2_RANDOM_H
 #include <cstdlib>
 #include <ctime>
+#include "../shape/point/point.h"
 
 class Random {
 public:
@@ -16,9 +17,19 @@ public:
         // системные часы в качестве инициализатора
         srand(static_cast<unsigned int>(time(0)));
     }
+
+    Random() {
+        first = INT16_MIN;
+        last = INT16_MAX;
+        srand(static_cast<unsigned int>(time(0)));
+    }
     // Генерация случайного числа в заданном диапазоне
     int Get() {
         return rand() % (last - first + 1) + first;
+    }
+
+    Point GetRandomPoint() {
+        Point p = Point(rand(), rand());
     }
 private:
     int first;

@@ -193,6 +193,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shape/color/color.o: shape/color/color.cpp.o
+.PHONY : shape/color/color.o
+
+# target to build an object file
+shape/color/color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/color/color.cpp.o
+.PHONY : shape/color/color.cpp.o
+
+shape/color/color.i: shape/color/color.cpp.i
+.PHONY : shape/color/color.i
+
+# target to preprocess a source file
+shape/color/color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/color/color.cpp.i
+.PHONY : shape/color/color.cpp.i
+
+shape/color/color.s: shape/color/color.cpp.s
+.PHONY : shape/color/color.s
+
+# target to generate assembly for a file
+shape/color/color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/color/color.cpp.s
+.PHONY : shape/color/color.cpp.s
+
 shape/point/point.o: shape/point/point.cpp.o
 .PHONY : shape/point/point.o
 
@@ -216,6 +240,30 @@ shape/point/point.s: shape/point/point.cpp.s
 shape/point/point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/point/point.cpp.s
 .PHONY : shape/point/point.cpp.s
+
+shape/rectangle/rectangle.o: shape/rectangle/rectangle.cpp.o
+.PHONY : shape/rectangle/rectangle.o
+
+# target to build an object file
+shape/rectangle/rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o
+.PHONY : shape/rectangle/rectangle.cpp.o
+
+shape/rectangle/rectangle.i: shape/rectangle/rectangle.cpp.i
+.PHONY : shape/rectangle/rectangle.i
+
+# target to preprocess a source file
+shape/rectangle/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.i
+.PHONY : shape/rectangle/rectangle.cpp.i
+
+shape/rectangle/rectangle.s: shape/rectangle/rectangle.cpp.s
+.PHONY : shape/rectangle/rectangle.s
+
+# target to generate assembly for a file
+shape/rectangle/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.s
+.PHONY : shape/rectangle/rectangle.cpp.s
 
 shape/shape.o: shape/shape.cpp.o
 .PHONY : shape/shape.o
@@ -257,9 +305,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... shape/color/color.o"
+	@echo "... shape/color/color.i"
+	@echo "... shape/color/color.s"
 	@echo "... shape/point/point.o"
 	@echo "... shape/point/point.i"
 	@echo "... shape/point/point.s"
+	@echo "... shape/rectangle/rectangle.o"
+	@echo "... shape/rectangle/rectangle.i"
+	@echo "... shape/rectangle/rectangle.s"
 	@echo "... shape/shape.o"
 	@echo "... shape/shape.i"
 	@echo "... shape/shape.s"

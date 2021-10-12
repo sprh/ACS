@@ -3,6 +3,7 @@
 #include "iostream"
 #include "fstream"
 #include "../random/random.h"
+#include "color/color.h"
 
 using std::ifstream;
 using std::ofstream;
@@ -10,7 +11,7 @@ using std::ofstream;
 class Shape {
 protected:
     static Random rnd20;
-    static Random rnd2;
+    static Random rnd3;
 public:
     virtual ~Shape() {};
     // Ввод обобщенной фигуры
@@ -25,6 +26,7 @@ public:
     virtual void Out(ofstream &ofst) = 0;
     // Вычисление периметра обобщенной фигуры
     virtual double Area() = 0;
+    Color::color color;
 };
 
 
