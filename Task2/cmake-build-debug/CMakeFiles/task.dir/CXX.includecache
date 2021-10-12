@@ -14,6 +14,10 @@ ctime
 ../shape/point/point.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.h
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.cpp
+circle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/iostream
@@ -40,6 +44,10 @@ fstream
 cmath
 -
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.cpp
+rectangle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/iostream
@@ -52,14 +60,6 @@ fstream
 ../../random/random.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h
 
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.cpp
-rectangle/rectangle.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h
-circle/circle.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
-triangle/triangle.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.h
-
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/iostream
@@ -69,6 +69,10 @@ fstream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h
 color/color.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.cpp
+triangle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.h
 ../shape.h

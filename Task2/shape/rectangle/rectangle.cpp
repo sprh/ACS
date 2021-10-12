@@ -30,7 +30,7 @@ void Rectangle::Out(ofstream *ofst) {
     p2.Out(ofst);
     *ofst << ". ";
     Color::Out(color, ofst);
-    *ofst << "\n";
+    *ofst << ". Area = " << Area() << ".\n";
 }
 
 // Вычисление периметра прямоугольника

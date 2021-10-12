@@ -1,5 +1,5 @@
 Filled container:
 Container contains 3 elements.
-0: It is Rectangle: (x:1, y: 1), (x:2, y: 2). Color: orange
-1: It is Circle: (x:2, y: 3). Color: red
-2: It is Triangle: (x:1, y: 2), (x:3, y: 4), (x:5, y: 6). Color: dark blue
+0: It is Rectangle: (x:1, y: 1), (x:2, y: 2). Color: orangeArea = -0.5.
+1: It is Circle: (x:2, y: 3). Color: redArea = 28.26.
+2: It is Triangle: (x:1, y: 2), (x:3, y: 4), (x:5, y: 6). Color: dark blueArea = 0.

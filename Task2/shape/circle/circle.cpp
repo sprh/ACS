@@ -26,7 +26,7 @@ void Circle::Out(ofstream *ofst) {
     center.Out(ofst);
     *ofst << ". ";
     Color::Out(color, ofst);
-    *ofst << "\n";
+    *ofst << ". Area = " << Area() << ".\n";
 }
 
 // Вычисление периметра круга
