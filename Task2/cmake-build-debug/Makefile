@@ -193,29 +193,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-random/random.o: random/random.cpp.o
-.PHONY : random/random.o
+shape/point/point.o: shape/point/point.cpp.o
+.PHONY : shape/point/point.o
 
 # target to build an object file
-random/random.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/random/random.cpp.o
-.PHONY : random/random.cpp.o
+shape/point/point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/point/point.cpp.o
+.PHONY : shape/point/point.cpp.o
 
-random/random.i: random/random.cpp.i
-.PHONY : random/random.i
+shape/point/point.i: shape/point/point.cpp.i
+.PHONY : shape/point/point.i
 
 # target to preprocess a source file
-random/random.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/random/random.cpp.i
-.PHONY : random/random.cpp.i
+shape/point/point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/point/point.cpp.i
+.PHONY : shape/point/point.cpp.i
 
-random/random.s: random/random.cpp.s
-.PHONY : random/random.s
+shape/point/point.s: shape/point/point.cpp.s
+.PHONY : shape/point/point.s
 
 # target to generate assembly for a file
-random/random.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/random/random.cpp.s
-.PHONY : random/random.cpp.s
+shape/point/point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/point/point.cpp.s
+.PHONY : shape/point/point.cpp.s
 
 shape/shape.o: shape/shape.cpp.o
 .PHONY : shape/shape.o
@@ -257,9 +257,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... random/random.o"
-	@echo "... random/random.i"
-	@echo "... random/random.s"
+	@echo "... shape/point/point.o"
+	@echo "... shape/point/point.i"
+	@echo "... shape/point/point.s"
 	@echo "... shape/shape.o"
 	@echo "... shape/shape.i"
 	@echo "... shape/shape.s"

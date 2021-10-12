@@ -132,10 +132,13 @@
 			<Option target="task"/>
 			<Option target="Task2"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.cpp">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h">
 			<Option target="task"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.cpp">
+			<Option target="task"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.h">
 			<Option target="task"/>
 		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.cpp">

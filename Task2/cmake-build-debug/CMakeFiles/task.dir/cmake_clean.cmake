@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "../bin/task.pdb"
   "CMakeFiles/task.dir/container/container.cpp.o"
   "CMakeFiles/task.dir/main.cpp.o"
-  "CMakeFiles/task.dir/random/random.cpp.o"
+  "CMakeFiles/task.dir/shape/point/point.cpp.o"
   "CMakeFiles/task.dir/shape/shape.cpp.o"
 )
 

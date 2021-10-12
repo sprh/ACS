@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/container/container.cpp.o"
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/main.cpp.o"
-  "/Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/random/random.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/point/point.cpp.o"
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/shape.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
