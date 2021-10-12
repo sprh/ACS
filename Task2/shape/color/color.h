@@ -1,6 +1,6 @@
 #ifndef TASK2_COLOR_H
 #define TASK2_COLOR_H
-#include "iostream"
+
 #include "fstream"
 using std::ofstream;
 class Color {
@@ -11,7 +11,7 @@ public:
 
     static color GetColor(const int &number);
 
-    static void Out(const color &c, ofstream &ofst);
+    static void Out(const color &c, ofstream *ofst);
 };
 
 #endif //TASK2_COLOR_H

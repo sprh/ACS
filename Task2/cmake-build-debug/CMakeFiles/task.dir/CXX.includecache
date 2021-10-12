@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.cpp
+color.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
+fstream
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/fstream
+

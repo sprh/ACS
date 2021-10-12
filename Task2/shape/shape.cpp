@@ -2,16 +2,15 @@
 // Created by Софья Тимохина on 12.10.2021.
 //
 
-#include "shape.h"
 #include "rectangle/rectangle.h"
 
 Random Shape::rnd20(1, 20);
 Random Shape::rnd3(1,2);
 
 // Ввод параметров обобщенной фигуры из файла
-Shape* Shape::StaticIn(ifstream &ifst) {
+Shape* Shape::StaticIn(ifstream *ifst) {
     int k;
-    ifst >> k;
+    *ifst >> k;
     Shape* sp = nullptr;
     switch(k) {
         case 1:

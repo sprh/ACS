@@ -1,7 +1,5 @@
 #include "container.h"
 
-#include <iostream>
-
 // Конструктор контейнера
 Container::Container(): len(0), storage() {}
 
@@ -19,9 +17,9 @@ void Container::Clear() {
 }
 
 // Ввод содержимого контейнера из указанного потока
-void Container::In(ifstream &ifst) {
-    while(!ifst.eof()) {
-        if((storage[len] = Shape::StaticIn(ifst)) != 0) {
+void Container::In(ifstream *ifst) {
+    while(!ifst->eof()) {
+        if((storage[len] = Shape::StaticIn(ifst)) != nullptr) {
             len++;
         }
     }
@@ -37,10 +35,10 @@ void Container::InRnd(int size) {
 }
 
 // Вывод содержимого контейнера в указанный поток
-void Container::Out(ofstream &ofst) {
-    ofst << "Container contains " << len << " elements.\n";
+void Container::Out(ofstream *ofst) {
+    *ofst << "Container contains " << len << " elements.\n";
     for(int i = 0; i < len; i++) {
-        ofst << i << ": ";
+        *ofst << i << ": ";
         storage[i]->Out(ofst);
     }
 }

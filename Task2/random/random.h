@@ -30,6 +30,7 @@ public:
 
     Point GetRandomPoint() {
         Point p = Point(rand(), rand());
+        return p;
     }
 private:
     int first;

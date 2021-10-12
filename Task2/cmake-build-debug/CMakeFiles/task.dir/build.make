@@ -66,22 +66,9 @@ include CMakeFiles/task.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task.dir/flags.make
 
-CMakeFiles/task.dir/main.cpp.o: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/main.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp
-
-CMakeFiles/task.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp > CMakeFiles/task.dir/main.cpp.i
-
-CMakeFiles/task.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp -o CMakeFiles/task.dir/main.cpp.s
-
 CMakeFiles/task.dir/container/container.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/container/container.cpp.o: ../container/container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/container/container.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/container/container.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/container/container.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.cpp
 
 CMakeFiles/task.dir/container/container.cpp.i: cmake_force
@@ -94,7 +81,7 @@ CMakeFiles/task.dir/container/container.cpp.s: cmake_force
 
 CMakeFiles/task.dir/shape/shape.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/shape/shape.cpp.o: ../shape/shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/shape/shape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/shape/shape.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/shape/shape.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.cpp
 
 CMakeFiles/task.dir/shape/shape.cpp.i: cmake_force
@@ -107,7 +94,7 @@ CMakeFiles/task.dir/shape/shape.cpp.s: cmake_force
 
 CMakeFiles/task.dir/shape/point/point.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/shape/point/point.cpp.o: ../shape/point/point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/shape/point/point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/shape/point/point.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/shape/point/point.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.cpp
 
 CMakeFiles/task.dir/shape/point/point.cpp.i: cmake_force
@@ -120,7 +107,7 @@ CMakeFiles/task.dir/shape/point/point.cpp.s: cmake_force
 
 CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o: ../shape/rectangle/rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.cpp
 
 CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.i: cmake_force
@@ -133,7 +120,7 @@ CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.s: cmake_force
 
 CMakeFiles/task.dir/shape/color/color.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/shape/color/color.cpp.o: ../shape/color/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/shape/color/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/shape/color/color.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/shape/color/color.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.cpp
 
 CMakeFiles/task.dir/shape/color/color.cpp.i: cmake_force
@@ -144,24 +131,37 @@ CMakeFiles/task.dir/shape/color/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/shape/color/color.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.cpp -o CMakeFiles/task.dir/shape/color/color.cpp.s
 
+CMakeFiles/task.dir/main.cpp.o: CMakeFiles/task.dir/flags.make
+CMakeFiles/task.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/main.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp
+
+CMakeFiles/task.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp > CMakeFiles/task.dir/main.cpp.i
+
+CMakeFiles/task.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp -o CMakeFiles/task.dir/main.cpp.s
+
 # Object files for target task
 task_OBJECTS = \
-"CMakeFiles/task.dir/main.cpp.o" \
 "CMakeFiles/task.dir/container/container.cpp.o" \
 "CMakeFiles/task.dir/shape/shape.cpp.o" \
 "CMakeFiles/task.dir/shape/point/point.cpp.o" \
 "CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o" \
-"CMakeFiles/task.dir/shape/color/color.cpp.o"
+"CMakeFiles/task.dir/shape/color/color.cpp.o" \
+"CMakeFiles/task.dir/main.cpp.o"
 
 # External object files for target task
 task_EXTERNAL_OBJECTS =
 
-../bin/task: CMakeFiles/task.dir/main.cpp.o
 ../bin/task: CMakeFiles/task.dir/container/container.cpp.o
 ../bin/task: CMakeFiles/task.dir/shape/shape.cpp.o
 ../bin/task: CMakeFiles/task.dir/shape/point/point.cpp.o
 ../bin/task: CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o
 ../bin/task: CMakeFiles/task.dir/shape/color/color.cpp.o
+../bin/task: CMakeFiles/task.dir/main.cpp.o
 ../bin/task: CMakeFiles/task.dir/build.make
 ../bin/task: CMakeFiles/task.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task"

@@ -5,9 +5,9 @@ Rectangle::~Rectangle() {
 }
 
 // Ввод параметров прямоугольника из файла
-void Rectangle::In(ifstream &ifst) {
+void Rectangle::In(ifstream *ifst) {
     int colorNumber;
-    ifst >> colorNumber >> p1.x >> p1.y >> p2.x >> p2.y;
+    *ifst >> colorNumber >> p1.x >> p1.y >> p2.x >> p2.y;
     color = Color::GetColor(colorNumber);
 }
 
@@ -23,14 +23,14 @@ void Rectangle::InRnd() {
 }
 
 // Вывод параметров прямоугольника в форматируемый поток
-void Rectangle::Out(ofstream &ofst) {
-    ofst << "It is Rectangle: ";
+void Rectangle::Out(ofstream *ofst) {
+    *ofst << "It is Rectangle: ";
     p1.Out(ofst);
-    ofst << ", ";
+    *ofst << ", ";
     p2.Out(ofst);
-    ofst << ". ";
+    *ofst << ". ";
     Color::Out(color, ofst);
-    ofst << "\n";
+    *ofst << "\n";
 }
 
 // Вычисление периметра прямоугольника

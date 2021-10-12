@@ -19,22 +19,29 @@ Color::color Color::GetColor(const int& colorNumber) {
             return PURPLE;
     }
 }
-void Color::Out(const Color::color& c, ofstream &ofst) {
-    ofst << "color: ";
+void Color::Out(const Color::color& c, ofstream *ofst) {
+    *ofst << "color: ";
     switch (c) {
         case RED:
-            ofst << "red";
+            *ofst << "red";
+            break;
         case ORANGE:
-            ofst << "orange";
+            *ofst << "orange";
+            break;
         case YELLOW:
-            ofst << "yellow";
+            *ofst << "yellow";
+            break;
         case GREEN:
-            ofst << "green";
+            *ofst << "green";
+            break;
         case LIGHTBLUE:
-            ofst << "light blue";
+            *ofst << "light blue";
+            break;
         case DARKBLUE:
-            ofst << "dark blue";
+            *ofst << "dark blue";
+            break;
         case PURPLE:
-            ofst << "purble";
+            *ofst << "purble";
+            break;
     }
 }
