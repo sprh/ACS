@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.cpp
-container.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.h
-
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.h
-../shape/shape.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
-
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp
-iostream
--
-fstream
--
-cstdlib
--
-cstring
--
-container/container.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.h
-
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h
 cstdlib
 -
@@ -33,10 +13,6 @@ ctime
 -
 ../shape/point/point.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.h
-
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.cpp
-circle.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
 iostream
@@ -61,10 +37,8 @@ iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/iostream
 fstream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/fstream
-
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.cpp
-rectangle.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h
+cmath
+-
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h
 iostream
@@ -83,6 +57,8 @@ rectangle/rectangle.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h
 circle/circle.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
+triangle/triangle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
 iostream
@@ -93,4 +69,8 @@ fstream
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h
 color/color.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.h
+../shape.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
 

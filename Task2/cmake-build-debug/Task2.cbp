@@ -122,6 +122,12 @@
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h">
 			<Option target="task"/>
 		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.cpp">
+			<Option target="task"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.h">
+			<Option target="task"/>
+		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

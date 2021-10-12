@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/point/point.cpp.o"
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o"
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/shape.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/triangle/triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -42,4 +42,12 @@ CMakeFiles/task.dir/shape/shape.cpp.o: \
  ../shape/point/point.h \
  ../shape/rectangle/rectangle.h \
  ../shape/shape.cpp \
- ../shape/shape.h
+ ../shape/shape.h \
+ ../shape/triangle/triangle.h
+CMakeFiles/task.dir/shape/triangle/triangle.cpp.o: \
+ ../random/random.h \
+ ../shape/color/color.h \
+ ../shape/point/point.h \
+ ../shape/shape.h \
+ ../shape/triangle/triangle.cpp \
+ ../shape/triangle/triangle.h

@@ -297,6 +297,30 @@ shape/shape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/shape.cpp.s
 .PHONY : shape/shape.cpp.s
 
+shape/triangle/triangle.o: shape/triangle/triangle.cpp.o
+.PHONY : shape/triangle/triangle.o
+
+# target to build an object file
+shape/triangle/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/triangle/triangle.cpp.o
+.PHONY : shape/triangle/triangle.cpp.o
+
+shape/triangle/triangle.i: shape/triangle/triangle.cpp.i
+.PHONY : shape/triangle/triangle.i
+
+# target to preprocess a source file
+shape/triangle/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/triangle/triangle.cpp.i
+.PHONY : shape/triangle/triangle.cpp.i
+
+shape/triangle/triangle.s: shape/triangle/triangle.cpp.s
+.PHONY : shape/triangle/triangle.s
+
+# target to generate assembly for a file
+shape/triangle/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/triangle/triangle.cpp.s
+.PHONY : shape/triangle/triangle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -327,6 +351,9 @@ help:
 	@echo "... shape/shape.o"
 	@echo "... shape/shape.i"
 	@echo "... shape/shape.s"
+	@echo "... shape/triangle/triangle.o"
+	@echo "... shape/triangle/triangle.i"
+	@echo "... shape/triangle/triangle.s"
 .PHONY : help
 
 

@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/task.dir/shape/point/point.cpp.o"
   "CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o"
   "CMakeFiles/task.dir/shape/shape.cpp.o"
+  "CMakeFiles/task.dir/shape/triangle/triangle.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

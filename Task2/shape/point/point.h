@@ -2,6 +2,7 @@
 #define TASK2_POINT_H
 #include "iostream"
 #include "fstream"
+#include <cmath>
 using std::ofstream;
 
 class Point {
@@ -10,6 +11,7 @@ public:
     Point(): x(0), y(0) {}
     Point(int x, int y): x(x), y(y) {};
     void Out(ofstream *ofst);
+    static double SideFromPoints(const Point& p1, const Point& p2);
 };
 
 

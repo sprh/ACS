@@ -20,13 +20,13 @@ using std::ofstream;
 class Circle: public Shape {
 public:
     ~Circle();
-    // Ввод параметров Круга из файла
+    // Ввод параметров круга из файла
     virtual void In(ifstream *ifst);
-    // Случайный ввод параметров Круга
+    // Случайный ввод параметров круга
     virtual void InRnd();
-    // Вывод параметров Круга в форматируемый поток
+    // Вывод параметров круга в форматируемый поток
     virtual void Out(ofstream *ofst);
-    // Вычисление периметра Круга
+    // Вычисление периметра круга
     virtual double Area();
 private:
     Point center;

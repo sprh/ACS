@@ -1,5 +1,6 @@
 #include "rectangle/rectangle.h"
 #include "circle/circle.h"
+#include "triangle/triangle.h"
 
 Random Shape::rnd20(1, 20);
 Random Shape::rnd3(1,2);
@@ -16,6 +17,9 @@ Shape* Shape::StaticIn(ifstream *ifst) {
         case 2:
             sp = new Circle;
             break;
+        case 3:
+            sp = new Triangle;
+            break;
         default:
             return nullptr;
     }
@@ -30,6 +34,12 @@ Shape *Shape::StaticInRnd() {
     switch(k) {
         case 1:
             sp = new Rectangle;
+            break;
+        case 2:
+            sp = new Circle;
+            break;
+        case 3:
+            sp = new Triangle;
             break;
         default:
             return nullptr;
