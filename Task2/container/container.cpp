@@ -45,10 +45,15 @@ void Container::Out(ofstream &ofst) {
     }
 }
 
-// Вычисление суммы периметров всех фигур в контейнере
-double Container::AverageArea(Container &c) {
+// Вычисление средней площади всех фигур в контейнере
+double Container::AverageArea() {
+    return 0.0;
 }
-
-void Container::RemoveItemsWithAreaBiggerThanAverage(Container &c) {
+// Удалить из контейнера те элементы, для которых значение, полу-
+// ченное с использованием функции, общей для всех альтернатив,
+// больше чем среднее арифметическое для всех элементов контейнера, полученное с ис-
+// пользованием этой же функции. Остальные элементы передвинуть в началу контейнера
+// с сохранением порядка.
+void Container::RemoveItemsWithAreaBiggerThanAverage() {
 
 }

@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <fstream>
+#include "container/container.h"
 
 using std::cout;
 using std::ifstream;
@@ -34,9 +35,11 @@ int main(int argc, char* argv[]) {
     }
     clock_t startTime = clock();
     cout << "Start\n";
+    Container c;
 
     if(!strcmp(argv[1], "-f")) {
         ifstream ifst(argv[2]);
+        c.In(ifst);
     }
     else if(!strcmp(argv[1], "-n")) {
         int size = std::stoi(argv[2]);
@@ -46,6 +49,10 @@ int main(int argc, char* argv[]) {
                  << ". Set 0 < number <= 10000\n";
             return 3;
         }
+        // системные часы в качестве инициализатора
+        srand(static_cast<unsigned int>(time(0)));
+        // Заполнение контейнера генератором случайных фигур
+        c.InRnd(size);
     }
     else {
         errMessage2();
@@ -55,9 +62,14 @@ int main(int argc, char* argv[]) {
     // Вывод содержимого контейнера в файл.
     ofstream ofst1(argv[3]);
     ofst1 << "Filled container:\n";
+    c.Out(ofst1);
 
     // The 2nd part of task
     ofstream ofst2(argv[4]);
+    ofst2 << "Average area: " << c.AverageArea();
+    ofst2 << "Items with area lower than average:\n";
+    c.RemoveItemsWithAreaBiggerThanAverage();
+    c.Out(ofst2);
 
     cout << "Stop in "<< ((double)(clock() - startTime)) / CLOCKS_PER_SEC;
     return 0;
