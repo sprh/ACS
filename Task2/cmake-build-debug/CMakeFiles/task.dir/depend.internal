@@ -15,6 +15,13 @@ CMakeFiles/task.dir/main.cpp.o
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.h
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
+CMakeFiles/task.dir/shape/circle/circle.cpp.o
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.cpp
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.h
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
 CMakeFiles/task.dir/shape/color/color.cpp.o
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.cpp
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
@@ -30,6 +37,7 @@ CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.h
 CMakeFiles/task.dir/shape/shape.cpp.o
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h
+ /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.h
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/point/point.h
  /Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/rectangle/rectangle.h

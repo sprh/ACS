@@ -1,8 +1,5 @@
-//
-// Created by Софья Тимохина on 12.10.2021.
-//
-
 #include "rectangle/rectangle.h"
+#include "circle/circle.h"
 
 Random Shape::rnd20(1, 20);
 Random Shape::rnd3(1,2);
@@ -16,6 +13,11 @@ Shape* Shape::StaticIn(ifstream *ifst) {
         case 1:
             sp = new Rectangle;
             break;
+        case 2:
+            sp = new Circle;
+            break;
+        default:
+            return nullptr;
     }
     sp->In(ifst);
     return sp;
@@ -30,8 +32,7 @@ Shape *Shape::StaticInRnd() {
             sp = new Rectangle;
             break;
         default:
-            sp = new Rectangle;
-            break;
+            return nullptr;
     }
     sp->InRnd();
     return sp;

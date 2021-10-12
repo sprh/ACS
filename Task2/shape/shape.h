@@ -2,10 +2,9 @@
 #define TASK2_SHAPE_H
 #include "iostream"
 #include <fstream>
-using namespace std;
-
 #include "../random/random.h"
 #include "color/color.h"
+using namespace std;
 
 using std::ifstream;
 using std::ofstream;

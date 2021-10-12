@@ -20,7 +20,7 @@ Color::color Color::GetColor(const int& colorNumber) {
     }
 }
 void Color::Out(const Color::color& c, ofstream *ofst) {
-    *ofst << "color: ";
+    *ofst << "Color: ";
     switch (c) {
         case RED:
             *ofst << "red";

@@ -92,6 +92,12 @@
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/random/random.h">
 			<Option target="task"/>
 		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.cpp">
+			<Option target="task"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/circle/circle.h">
+			<Option target="task"/>
+		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/color/color.cpp">
 			<Option target="task"/>
 		</Unit>

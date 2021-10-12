@@ -177,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shape/circle/circle.o: shape/circle/circle.cpp.o
+.PHONY : shape/circle/circle.o
+
+# target to build an object file
+shape/circle/circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/circle/circle.cpp.o
+.PHONY : shape/circle/circle.cpp.o
+
+shape/circle/circle.i: shape/circle/circle.cpp.i
+.PHONY : shape/circle/circle.i
+
+# target to preprocess a source file
+shape/circle/circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/circle/circle.cpp.i
+.PHONY : shape/circle/circle.cpp.i
+
+shape/circle/circle.s: shape/circle/circle.cpp.s
+.PHONY : shape/circle/circle.s
+
+# target to generate assembly for a file
+shape/circle/circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/circle/circle.cpp.s
+.PHONY : shape/circle/circle.cpp.s
+
 shape/color/color.o: shape/color/color.cpp.o
 .PHONY : shape/color/color.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... shape/circle/circle.o"
+	@echo "... shape/circle/circle.i"
+	@echo "... shape/circle/circle.s"
 	@echo "... shape/color/color.o"
 	@echo "... shape/color/color.i"
 	@echo "... shape/color/color.s"

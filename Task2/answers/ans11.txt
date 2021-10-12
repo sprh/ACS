@@ -1,4 +1,4 @@
 Filled container:
 Container contains 2 elements.
 0: It is Rectangle: (x:1, y: 1), (x:2, y: 2). color: orange
-1: It is Rectangle: (x:1, y: 1), (x:2, y: 3). color: green
+1: It is Rectangle: (x:2, y: 3). color: red

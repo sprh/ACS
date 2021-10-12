@@ -20,6 +20,6 @@ set(SOURCE_FILES
         shape/point/point.cpp
         shape/rectangle/rectangle.cpp
         shape/color/color.cpp
-        main.cpp)
+        main.cpp shape/circle/circle.cpp shape/circle/circle.h)
 
 add_executable(task ${SOURCE_FILES})
