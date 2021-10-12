@@ -9,8 +9,13 @@ Triangle::~Triangle() {
 
 // Ввод параметров треугольника из файла
 void Triangle::In(ifstream *ifst) {
-    int colorNumber;
-    *ifst >> colorNumber >> p1.x >> p1.y >> p2.x >> p2.y >> p3.x >> p3.y;
+    int colorNumber = ReadInt(ifst);
+    p1.x = ReadInt(ifst);
+    p1.y = ReadInt(ifst);
+    p2.x = ReadInt(ifst);
+    p2.y = ReadInt(ifst);
+    p3.x = ReadInt(ifst);
+    p3.y = ReadInt(ifst);
     color = Color::GetColor(colorNumber);
 }
 

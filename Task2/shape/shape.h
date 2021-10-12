@@ -4,6 +4,7 @@
 #include <fstream>
 #include "../random/random.h"
 #include "color/color.h"
+#include "../extension/extension.h"
 using namespace std;
 
 using std::ifstream;

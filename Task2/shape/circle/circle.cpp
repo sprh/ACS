@@ -6,8 +6,9 @@ Circle::~Circle() {
 
 // Ввод параметров круга из файл
 void Circle::In(ifstream *ifst) {
-    int colorNumber;
-    *ifst >> colorNumber >> center.x >> center.y >> radius;
+    int colorNumber = ReadInt(ifst);
+    center.x = ReadInt(ifst);
+    center.y = ReadInt(ifst);
     color = Color::GetColor(colorNumber);
 }
 

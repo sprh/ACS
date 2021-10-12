@@ -8,7 +8,7 @@ Random Shape::rnd3(1,2);
 // Ввод параметров обобщенной фигуры из файла
 Shape* Shape::StaticIn(ifstream *ifst) {
     int k;
-    *ifst >> k;
+    k = ReadInt(ifst);
     Shape* sp = nullptr;
     switch(k) {
         case 1:

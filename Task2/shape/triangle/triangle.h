@@ -3,7 +3,6 @@
 
 
 #include "../shape.h"
-
 // Треугольник
 class Triangle: public Shape {
 public:

@@ -86,6 +86,9 @@
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/container/container.h">
 			<Option target="task"/>
 		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/extension/extension.h">
+			<Option target="task"/>
+		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task2/main.cpp">
 			<Option target="task"/>
 		</Unit>

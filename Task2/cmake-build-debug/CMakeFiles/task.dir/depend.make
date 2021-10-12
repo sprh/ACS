@@ -4,18 +4,21 @@
 CMakeFiles/task.dir/container/container.cpp.o: \
  ../container/container.cpp \
  ../container/container.h \
+ ../extension/extension.h \
  ../random/random.h \
  ../shape/color/color.h \
  ../shape/point/point.h \
  ../shape/shape.h
 CMakeFiles/task.dir/main.cpp.o: \
  ../container/container.h \
+ ../extension/extension.h \
  ../main.cpp \
  ../random/random.h \
  ../shape/color/color.h \
  ../shape/point/point.h \
  ../shape/shape.h
 CMakeFiles/task.dir/shape/circle/circle.cpp.o: \
+ ../extension/extension.h \
  ../random/random.h \
  ../shape/circle/circle.cpp \
  ../shape/circle/circle.h \
@@ -29,6 +32,7 @@ CMakeFiles/task.dir/shape/point/point.cpp.o: \
  ../shape/point/point.cpp \
  ../shape/point/point.h
 CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o: \
+ ../extension/extension.h \
  ../random/random.h \
  ../shape/color/color.h \
  ../shape/point/point.h \
@@ -36,6 +40,7 @@ CMakeFiles/task.dir/shape/rectangle/rectangle.cpp.o: \
  ../shape/rectangle/rectangle.h \
  ../shape/shape.h
 CMakeFiles/task.dir/shape/shape.cpp.o: \
+ ../extension/extension.h \
  ../random/random.h \
  ../shape/circle/circle.h \
  ../shape/color/color.h \
@@ -45,6 +50,7 @@ CMakeFiles/task.dir/shape/shape.cpp.o: \
  ../shape/shape.h \
  ../shape/triangle/triangle.h
 CMakeFiles/task.dir/shape/triangle/triangle.cpp.o: \
+ ../extension/extension.h \
  ../random/random.h \
  ../shape/color/color.h \
  ../shape/point/point.h \
