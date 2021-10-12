@@ -45,7 +45,11 @@ void Container::Out(ofstream *ofst) {
 
 // Вычисление средней площади всех фигур в контейнере
 double Container::AverageArea() {
-    return 0.0;
+    double sum = 0;
+    for (int i = 0; i < len; i ++) {
+        sum += storage[i]->Area();
+    }
+    return sum / len;
 }
 // Удалить из контейнера те элементы, для которых значение, полу-
 // ченное с использованием функции, общей для всех альтернатив,
@@ -53,5 +57,13 @@ double Container::AverageArea() {
 // пользованием этой же функции. Остальные элементы передвинуть в началу контейнера
 // с сохранением порядка.
 void Container::RemoveItemsWithAreaBiggerThanAverage() {
-
+    int currentLen = 0;
+    double averageArea = AverageArea();
+    for (int i = 0; i < len; i ++) {
+        if (storage[i]->Area() <= averageArea) {
+            storage[currentLen] = storage[i];
+            ++currentLen;
+        }
+    }
+    len = currentLen;
 }

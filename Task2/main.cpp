@@ -63,7 +63,7 @@ int main(int argc, char* argv[]) {
 
     // The 2nd part of task
     ofstream ofst2(argv[4]);
-    ofst2 << "Average area: " << c->AverageArea();
+    ofst2 << "Average area: " << c->AverageArea() << ".\n";
     ofst2 << "Items with area lower than average:\n";
     c->RemoveItemsWithAreaBiggerThanAverage();
     c->Out(&ofst2);
