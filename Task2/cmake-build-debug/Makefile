@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named task
+
+# Build rule for target.
+task: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task
+.PHONY : task
+
+# fast build rule for target.
+task/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/build
+.PHONY : task/fast
+
+#=============================================================================
 # Target rules for targets named Task2
 
 # Build rule for target.
@@ -129,11 +142,36 @@ Task2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/build
 .PHONY : Task2/fast
 
+container/container.o: container/container.cpp.o
+.PHONY : container/container.o
+
+# target to build an object file
+container/container.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/container/container.cpp.o
+.PHONY : container/container.cpp.o
+
+container/container.i: container/container.cpp.i
+.PHONY : container/container.i
+
+# target to preprocess a source file
+container/container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/container/container.cpp.i
+.PHONY : container/container.cpp.i
+
+container/container.s: container/container.cpp.s
+.PHONY : container/container.s
+
+# target to generate assembly for a file
+container/container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/container/container.cpp.s
+.PHONY : container/container.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/main.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -142,6 +180,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -150,8 +189,57 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+random/random.o: random/random.cpp.o
+.PHONY : random/random.o
+
+# target to build an object file
+random/random.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/random/random.cpp.o
+.PHONY : random/random.cpp.o
+
+random/random.i: random/random.cpp.i
+.PHONY : random/random.i
+
+# target to preprocess a source file
+random/random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/random/random.cpp.i
+.PHONY : random/random.cpp.i
+
+random/random.s: random/random.cpp.s
+.PHONY : random/random.s
+
+# target to generate assembly for a file
+random/random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/random/random.cpp.s
+.PHONY : random/random.cpp.s
+
+shape/shape.o: shape/shape.cpp.o
+.PHONY : shape/shape.o
+
+# target to build an object file
+shape/shape.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/shape.cpp.o
+.PHONY : shape/shape.cpp.o
+
+shape/shape.i: shape/shape.cpp.i
+.PHONY : shape/shape.i
+
+# target to preprocess a source file
+shape/shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/shape.cpp.i
+.PHONY : shape/shape.cpp.i
+
+shape/shape.s: shape/shape.cpp.s
+.PHONY : shape/shape.s
+
+# target to generate assembly for a file
+shape/shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/shape/shape.cpp.s
+.PHONY : shape/shape.cpp.s
 
 # Help Target
 help:
@@ -162,9 +250,19 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Task2"
+	@echo "... task"
+	@echo "... container/container.o"
+	@echo "... container/container.i"
+	@echo "... container/container.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... random/random.o"
+	@echo "... random/random.i"
+	@echo "... random/random.s"
+	@echo "... shape/shape.o"
+	@echo "... shape/shape.i"
+	@echo "... shape/shape.s"
 .PHONY : help
 
 
