@@ -20,10 +20,13 @@ void In(rectangle &r, ifstream &ifst) {
 void InRnd(rectangle &r) {
     r.p1.x = Random();
     r.p1.y = Random();
-    do {
-        r.p2.x = Random();
-        r.p2.y = Random();
-    } while (!(r.p1.x < r.p2.y && r.p1.y > r.p2.y));
+    r.p2.x = Random();
+    r.p2.y = Random();
+    if (r.p2.x <= r.p1.x) {
+        r.p2.x += r.p1.x;
+    } if (r.p2.y >= r.p1.y) {
+        r.p2.y -= r.p1.y;
+    }
 }
 
 //------------------------------------------------------------------------------
