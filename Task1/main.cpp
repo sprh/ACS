@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
     }
     else if(!strcmp(argv[1], "-n")) {
         int size = atoi(argv[2]);
-        if((size < 1) || (size > 10000)) { 
+        if((size < 1) || (size > 10000)) {
             cout << "incorrect numer of figures = "
                  << size
                  << ". Set 0 < number <= 10000\n";
