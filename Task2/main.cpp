@@ -43,7 +43,14 @@ int main(int argc, char* argv[]) {
         }
     }
     else if(!strcmp(argv[1], "-n")) {
-        int size = std::stoi(argv[2]);
+        int size;
+        try {
+            size = std::stoi(argv[2]);
+        } catch (std::exception& e) {
+            cout << "Number of figures should be integer!\n"
+                    "Failed with error: " << e.what();
+            return 3;
+        }
         if((size < 1) || (size > 10000)) {
             cout << "incorrect number of figures = "
                  << size
