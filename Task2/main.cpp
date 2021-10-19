@@ -83,7 +83,7 @@ int main(int argc, char* argv[]) {
     } catch (std::exception& e) {
         std::cout << "Failed: " << e.what();
     }
-//    delete c;
+    delete c;
     cout << "Stop in "<< ((double)(clock() - startTime)) / CLOCKS_PER_SEC;
     return 0;
 }

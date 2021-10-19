@@ -1,2 +1,5 @@
 Filled container:
-Container contains 0 elements.
+Container contains 3 elements.
+0: It is Rectangle: (x: 10, y: 15), (x: 8, y: 20). Color: green. Area = 5.
+1: It is Circle: (x: 10, y: 9). Color: light blue. Area = 12.56.
+2: It is Triangle: (x: 1, y: 2), (x: 4, y: 5), (x: 8, y: 0). Color: yellow. Area = 13.5.

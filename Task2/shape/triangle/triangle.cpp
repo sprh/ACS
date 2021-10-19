@@ -3,9 +3,7 @@
 //
 
 #include "triangle.h"
-Triangle::~Triangle() {
-    delete this;
-}
+Triangle::~Triangle() = default;
 
 // Ввод параметров треугольника из файла
 void Triangle::In(ifstream *ifst) {

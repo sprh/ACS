@@ -1,8 +1,6 @@
 #include "circle.h"
 
-Circle::~Circle() {
-    delete this;
-}
+Circle::~Circle() = default;
 
 // Ввод параметров круга из файл
 void Circle::In(ifstream *ifst) {

@@ -12,7 +12,7 @@ using std::ofstream;
 
 class Shape {
 public:
-    virtual ~Shape() {};
+    virtual ~Shape() = default;
     // Ввод обобщенной фигуры
     static Shape *StaticIn(ifstream *ifdt);
     // Ввод обобщенной фигуры

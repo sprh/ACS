@@ -1,8 +1,6 @@
 #include "rectangle.h"
 
-Rectangle::~Rectangle() {
-    delete this;
-}
+Rectangle::~Rectangle() = default;
 
 // Ввод параметров прямоугольника из файла
 void Rectangle::In(ifstream *ifst) {
