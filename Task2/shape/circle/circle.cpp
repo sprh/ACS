@@ -15,11 +15,9 @@ void Circle::In(ifstream *ifst) {
 
 // Случайный ввод параметров круга
 void Circle::InRnd() {
-    Random rnd = Random();
-    Random rndColor = Random(1, 7);
-    center = rnd.GetRandomPoint();
-    radius = abs(rnd.Get());
-    color = Color::GetColor(rndColor.Get());
+    center = Random::GetRandomPoint();
+    radius = abs(Random::Get());
+    color = Color::GetColor(Random::Get(1, 7));
 }
 
 // Вывод параметров круга в форматируемый поток

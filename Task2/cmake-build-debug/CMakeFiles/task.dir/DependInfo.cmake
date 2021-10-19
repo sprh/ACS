@@ -17,7 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/shape.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/shape.cpp.o"
   "/Users/sprh.t/Documents/HSEPI/ACS/Task2/shape/triangle/triangle.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task2/cmake-build-debug/CMakeFiles/task.dir/shape/triangle/triangle.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

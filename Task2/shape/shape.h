@@ -11,9 +11,6 @@ using std::ifstream;
 using std::ofstream;
 
 class Shape {
-protected:
-    static Random rnd20;
-    static Random rnd3;
 public:
     virtual ~Shape() {};
     // Ввод обобщенной фигуры

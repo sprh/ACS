@@ -16,13 +16,9 @@ void Rectangle::In(ifstream *ifst) {
 
 // Случайный ввод параметров прямоугольника
 void Rectangle::InRnd() {
-    Random rnd = Random();
-    Random rndColor = Random(1, 7);
-    p1 = rnd.GetRandomPoint();
-    do {
-        p2 = rnd.GetRandomPoint();
-    } while (!(p1.x < p2.y && p1.y > p2.y));
-    color = Color::GetColor(rndColor.Get());
+    p1 = Random::GetRandomPoint();
+    p2 = Random::GetRandomPoint();
+    color = Color::GetColor(Random::Get(1, 7));
 }
 
 // Вывод параметров прямоугольника в форматируемый поток

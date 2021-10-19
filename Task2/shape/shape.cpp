@@ -2,9 +2,6 @@
 #include "circle/circle.h"
 #include "triangle/triangle.h"
 
-Random Shape::rnd20(1, 20);
-Random Shape::rnd3(1,2);
-
 // Ввод параметров обобщенной фигуры из файла
 Shape* Shape::StaticIn(ifstream *ifst) {
     int k;
@@ -29,7 +26,7 @@ Shape* Shape::StaticIn(ifstream *ifst) {
 
 // Случайный ввод обобщенной фигуры
 Shape *Shape::StaticInRnd() {
-    int k = Shape::rnd3.Get();
+    int k = Random::Get(1, 3);
     Shape* sp = nullptr;
     switch(k) {
         case 1:

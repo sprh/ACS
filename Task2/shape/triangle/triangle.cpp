@@ -21,18 +21,16 @@ void Triangle::In(ifstream *ifst) {
 
 // Случайный ввод параметров треугольника
 void Triangle::InRnd() {
-    Random rnd = Random();
-    Random rndColor = Random(1, 7);
-    p1 = rnd.GetRandomPoint();
+    p1 = Random::GetRandomPoint();
     do {
-        p2 = rnd.GetRandomPoint();
+        p2 = Random::GetRandomPoint();
     } while (p1.x == p2.y || p1.y == p2.y);
     do {
-        p3 = rnd.GetRandomPoint();
+        p3 = Random::GetRandomPoint();
     } while (Point::SideFromPoints(p1, p2) + Point::SideFromPoints(p1, p3) < Point::SideFromPoints(p2, p3) ||
             Point::SideFromPoints(p1, p2) + Point::SideFromPoints(p2, p3) < Point::SideFromPoints(p1, p3) ||
              Point::SideFromPoints(p2, p3) + Point::SideFromPoints(p1, p3) < Point::SideFromPoints(p1, p2));
-    color = Color::GetColor(rndColor.Get());
+    color = Color::GetColor(Random::Get(1, 7));
 }
 
 // Вывод параметров треугольника в форматируемый поток
