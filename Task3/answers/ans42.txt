@@ -1,0 +1,5 @@
+Average area: 17.213864217863257
+Items with area lower than average:
+Container contains 2 elements.
+1: It is a dark_blue triangle: x = 1, y = 2, x = 3, y = 4, x = 15, y = 6. Area = 9.99999999999997.
+2: It is a light_blue circle: center: x = 2, y = 3, radius: 1. Area = 3.141592653589793.

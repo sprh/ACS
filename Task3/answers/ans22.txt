@@ -1,0 +1,4 @@
+Average area: 3.5
+Items with area lower than average:
+Container contains 1 elements.
+1: It is a dark_blue triangle: x = 1, y = 2, x = 3, y = 4, x = 5, y = 6. Area = 0.0.
