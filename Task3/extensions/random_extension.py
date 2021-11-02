@@ -10,3 +10,7 @@ def get_random_point() -> Point:
 
 def get_random_color() -> Color:
     return random.choice(list(Color))
+
+
+def get_random_int(left_bound: int = 1, right_bound: int = 10000) -> int:
+    return random.randint(left_bound, right_bound)
