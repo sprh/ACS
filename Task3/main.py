@@ -1,7 +1,7 @@
 import sys
 from datetime import datetime
 
-from container.containe import Container
+from container.container import Container
 
 
 def err_message_1():
@@ -26,11 +26,11 @@ def main(argv: [str]):
         sys.exit(1)
     print('Start')
     start_time = datetime.now()
-
     if argv[1] == '-f':
         try:
             input_file = open(argv[2], 'r')
             container = Container.in_from_file(input_file)
+            input_file.close()
         except IOError:
             print('Incorrect input file')
             sys.exit(3)
@@ -50,19 +50,22 @@ def main(argv: [str]):
     try:
         output_file_1 = open(argv[3], 'w')
         container.out(output_file_1)
+        output_file_1.close()
     except IOError:
         print('Incorrect output file 1')
         sys.exit(3)
     try:
-        output_file_1 = open(argv[4], 'w')
-        output_file_1.write('Average area: {average_area}\n'.format(average_area=container.average_area()))
+        output_file_2 = open(argv[4], 'w')
+        output_file_2.write('Average area: {average_area}\n'.format(average_area=container.average_area()))
         container.remove_items_with_area_bigger_than_average()
-        output_file_1.write('Items with area lower than average:\n')
-        container.out(output_file_1)
+        output_file_2.write('Items with area lower than average:\n')
+        container.out(output_file_2)
+        output_file_2.close()
     except IOError:
         print('Incorrect output file 2')
         sys.exit(3)
-    print('Stop in %s milliseconds' % (datetime.now() - start_time).microseconds)
+    end_time = (datetime.now() - start_time).microseconds / 10**6
+    print('Stop in %s seconds' % (str(end_time)))
     sys.exit(0)
 
 
