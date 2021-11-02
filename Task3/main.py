@@ -1,6 +1,5 @@
 import sys
 from datetime import datetime
-
 from container.container import Container
 
 
@@ -64,7 +63,7 @@ def main(argv: [str]):
     except IOError:
         print('Incorrect output file 2')
         sys.exit(3)
-    end_time = (datetime.now() - start_time).microseconds / 10**6
+    end_time = (datetime.now() - start_time).microseconds / 10 ** 6
     print('Stop in %s seconds' % (str(end_time)))
     sys.exit(0)
 
