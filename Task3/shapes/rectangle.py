@@ -18,7 +18,7 @@ class Rectangle(Shape):
     def to_string(self) -> str:
         return "It is a {color} rectangle: " \
                "{p1}, {p2}. Area = {area}". \
-            format(color=self.__color, p1=self.__p1.to_string(),
+            format(color=self.color.name, p1=self.__p1.to_string(),
                    p2=self.__p2.to_string(), area=self.area())
 
     def area(self) -> float:

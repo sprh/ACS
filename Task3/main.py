@@ -26,11 +26,12 @@ def main(argv: [str]):
         sys.exit(1)
     print('Start')
     start_time = datetime.now()
+
     if argv[1] == '-f':
         try:
             input_file = open(argv[2], 'r')
-            container = Container.create_from_file(input_file)
-        except OSError:
+            container = Container.in_from_file(input_file)
+        except IOError:
             print('Incorrect input file')
             sys.exit(3)
     elif argv[1] == '-n':
@@ -38,6 +39,7 @@ def main(argv: [str]):
             items_count = int(argv[2])
             if items_count < 1 or items_count > 10000:
                 raise ValueError
+            container = Container.in_random(items_count)
         except ValueError:
             print('Incorrect number of arguments.\n'
                   'Should be an integer number from 1 to 10.000')
@@ -45,6 +47,12 @@ def main(argv: [str]):
     else:
         err_message_2()
         sys.exit(2)
+    try:
+        output_file_1 = open(argv[3], 'w')
+        container.out(output_file_1)
+    except IOError:
+        print('Incorrect output file')
+        sys.exit(3)
     print('Stop in %s milliseconds' % (datetime.now() - start_time).microseconds)
     sys.exit(0)
 

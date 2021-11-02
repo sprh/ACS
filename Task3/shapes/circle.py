@@ -18,7 +18,7 @@ class Circle(Shape):
     def to_string(self) -> str:
         return "It is a {color} circle: center: " \
                "{center}, radius: {radius}. Area = {area}". \
-            format(color=self.__color, center=self.__center.to_string(),
+            format(color=self.color.name, center=self.__center.to_string(),
                    radius=self.__radius, area=self.area())
 
     def area(self) -> float:

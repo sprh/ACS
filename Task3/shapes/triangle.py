@@ -21,7 +21,7 @@ class Triangle(Shape):
     def to_string(self) -> str:
         return "It is a {color} triangle: " \
                "{p1}, {p2}, {p3}. Area = {area}".\
-            format(color=self.__color, p1=self.__p1.to_string(),
+            format(color=self.color.name, p1=self.__p1.to_string(),
                    p2=self.__p2.to_string(), p3=self.__p3.to_string(), area=self.area())
 
     # Returns an area of the triangle.
