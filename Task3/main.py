@@ -1,6 +1,5 @@
 import sys
-import time
-
+from datetime import datetime
 
 def err_message_1():
     print('Incorrect command line!\n'
@@ -22,13 +21,29 @@ def main(argv: [str]):
     if len(argv) != 5:
         err_message_1()
         sys.exit(1)
-
-    if argv[1] != '-f' and argv[2] != '-n':
+    print('Start')
+    start_time = datetime.now()
+    if argv[1] == '-f':
+        input_file = None
+        try:
+            input_file = open(argv[2], 'r')
+        except OSError:
+            print('Incorrect input file')
+            sys.exit(3)
+    elif argv[1] == '-n':
+        items_count = None
+        try:
+            items_count = int(argv[2])
+            if items_count < 1 or items_count > 10000:
+                raise ValueError
+        except ValueError:
+            print('Incorrect number of arguments.\n'
+                  'Should be an integer number from 1 to 10.000')
+            sys.exit(3)
+    else:
         err_message_2()
         sys.exit(2)
-    print('Start')
-    start_time = time.perf_counter()
-    print('Stop in %d' % (time.perf_counter() - start_time))
+    print('Stop in %s milliseconds' % (datetime.now() - start_time).microseconds)
     sys.exit(0)
 
 
