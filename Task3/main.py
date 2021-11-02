@@ -51,7 +51,16 @@ def main(argv: [str]):
         output_file_1 = open(argv[3], 'w')
         container.out(output_file_1)
     except IOError:
-        print('Incorrect output file')
+        print('Incorrect output file 1')
+        sys.exit(3)
+    try:
+        output_file_1 = open(argv[4], 'w')
+        output_file_1.write('Average area: {average_area}\n'.format(average_area=container.average_area()))
+        container.remove_items_with_area_bigger_than_average()
+        output_file_1.write('Items with area lower than average:\n')
+        container.out(output_file_1)
+    except IOError:
+        print('Incorrect output file 2')
         sys.exit(3)
     print('Stop in %s milliseconds' % (datetime.now() - start_time).microseconds)
     sys.exit(0)

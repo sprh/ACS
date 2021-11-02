@@ -40,3 +40,19 @@ class Container:
         for i in range(self.__len):
             file.write("{i}: {shape}.\n".format(i=i + 1, shape=self.__shapes[i].to_string()))
 
+    def average_area(self):
+        if self.__len == 0:
+            return 0.0
+        area_sum = 0.0
+        for shape in self.__shapes:
+            area_sum += shape.area()
+        return area_sum / self.__len
+
+    def remove_items_with_area_bigger_than_average(self):
+        current_len = 0
+        average_area = self.average_area()
+        for i in range(self.__len):
+            if self.__shapes[i].area() <= average_area:
+                self.__shapes[current_len] = self.__shapes[i]
+                current_len += 1
+        self.__len = current_len
