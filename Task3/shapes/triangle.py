@@ -1,7 +1,7 @@
 from extensions.random_extension import get_random_point, get_random_color
-from shape import Shape
-from point import side_from_points, Point
-from color import Color
+from shapes.shape import Shape
+from shapes.point import side_from_points, Point
+from shapes.color import Color
 
 
 # Triangle figure.
@@ -32,7 +32,7 @@ class Triangle(Shape):
         s = (a + b + c) / 2
         return (s * (s - a) * (s - b) * (s - c)) ** 0.5
 
-
-# Returns a random triangle.
-def get_random_figure() -> Triangle:
-    return Triangle(get_random_point(), get_random_point(), get_random_point(), get_random_color())
+    # Returns a random triangle.
+    @classmethod
+    def get_random_triangle(cls):
+        return Triangle(get_random_point(), get_random_point(), get_random_point(), get_random_color())

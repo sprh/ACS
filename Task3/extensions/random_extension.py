@@ -1,7 +1,7 @@
 import random
 
-from shape.color import Color
-from shape.point import Point
+from shapes.color import Color
+from shapes.point import Point
 
 
 def get_random_point() -> Point:

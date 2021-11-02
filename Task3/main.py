@@ -1,6 +1,9 @@
 import sys
 from datetime import datetime
 
+from container.containe import Container
+
+
 def err_message_1():
     print('Incorrect command line!\n'
           'Waited:\n'
@@ -24,9 +27,9 @@ def main(argv: [str]):
     print('Start')
     start_time = datetime.now()
     if argv[1] == '-f':
-        input_file = None
         try:
             input_file = open(argv[2], 'r')
+            container = Container.create_from_file(input_file)
         except OSError:
             print('Incorrect input file')
             sys.exit(3)

@@ -1,9 +1,9 @@
 import math
 
-from extensions.random_extension import get_random_point, get_random_int, get_random_color
-from shape import Shape
-from point import Point
-from shape.color import Color
+from extensions.random_extension import get_random_int, get_random_point, get_random_color
+from shapes.shape import Shape
+from shapes.point import Point
+from shapes.color import Color
 
 
 class Circle(Shape):
@@ -24,6 +24,7 @@ class Circle(Shape):
     def area(self) -> float:
         return math.pi * self.__radius ** 2
 
-
-def get_random_figure() -> Circle:
-    return Circle(get_random_int(), get_random_point(), get_random_color())
+    @classmethod
+    # Returns a random circle.
+    def get_random_circle(cls):
+        return cls(get_random_int(), get_random_point(), get_random_color())

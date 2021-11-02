@@ -1,7 +1,7 @@
 from extensions.random_extension import get_random_point, get_random_color
-from shape import Shape
-from point import Point
-from color import Color
+from shapes.shape import Shape
+from shapes.point import Point
+from shapes.color import Color
 
 
 # Rectangle figure.
@@ -24,7 +24,8 @@ class Rectangle(Shape):
     def area(self) -> float:
         return 0.5 * (self.__p2.x - self.__p1.x) * (self.__p1.y - self.__p2.y)
 
+    # Returns a random rectangle.
+    @classmethod
+    def get_random_rectangle(cls):
+        return cls(get_random_point(), get_random_point(), get_random_color())
 
-# Returns a random rectangle.
-def get_random_figure() -> Rectangle:
-    return Rectangle(get_random_point(), get_random_point(), get_random_color())
