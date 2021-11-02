@@ -1,0 +1,3 @@
+Filled container:
+Container contains 1 elements.
+0: It is Rectangle: (x: 2, y: 3), (x: 40, y: 0). Color: red. Area = 57.

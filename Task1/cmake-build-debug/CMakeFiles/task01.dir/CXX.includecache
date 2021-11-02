@@ -22,25 +22,12 @@ point.h
 shape.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.h
 
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/iostream
 cstring
 -
-
-/Users/sprh.t/Documents/HSEPI/ACS/Task1/main.cpp
-iostream
--
-fstream
--
-cstdlib
--
-ctime
--
-cstring
--
-container.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
 iostream
@@ -89,4 +76,3 @@ extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
 point.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
-
