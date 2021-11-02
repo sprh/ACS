@@ -1,5 +1,6 @@
 import enum
 
+
 class Color(enum.Enum):
     red = 0
     orange = 1

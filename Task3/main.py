@@ -31,7 +31,6 @@ def main(argv: [str]):
             print('Incorrect input file')
             sys.exit(3)
     elif argv[1] == '-n':
-        items_count = None
         try:
             items_count = int(argv[2])
             if items_count < 1 or items_count > 10000:
