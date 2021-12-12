@@ -23,7 +23,7 @@ void Beehive::searchRegion(Region *region, const int &flock_index) {
                 std::cout << "[Flock " << flock_index << "] got a signal that the bear was found.\n";
                 break;
             }
-            std::cout << "[Flock " << flock_index << "] searching in the point " << i << " " << '\n';
+            std::cout << "[Flock " << flock_index << "] searching in the point " << i + 1 << " " << '\n';
             if (region->hasBear(i)) {
                 std::cout << "[Flock " << flock_index << "] found a bear!\n";
                 std::cout << "**I'm against violence so they dispersed peacefully**\n";
