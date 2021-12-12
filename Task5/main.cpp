@@ -5,11 +5,12 @@
 void errMessage() {
     std::cout << "incorrect command line!\n"
             "  Waited:\n"
-            "     command -n area regions_count bear_location"
+            "     command -n area regions_count bear_location\n"
             "  Or:\n"
             "     command -r\n";
 }
 
+// Generates regions by params
 std::vector<Region*> createRegions(const int &area, const int &regions_count, const int &bear_location) {
     std::vector<Region*> regions;
     int size = area / regions_count;
@@ -21,6 +22,7 @@ std::vector<Region*> createRegions(const int &area, const int &regions_count, co
     return regions;
 }
 
+// Creates random regions
 std::vector<Region*> createRandomRegions() {
     int area = rand() % 1000 + 1;
     int regions_count = rand() % area + 1;
@@ -28,6 +30,7 @@ std::vector<Region*> createRandomRegions() {
     return createRegions(area, regions_count, bear_location);
 }
 
+// Start point
 int main(int argc, char* argv[]) {
     if (argc != 5 && argc != 2) {
         errMessage();
