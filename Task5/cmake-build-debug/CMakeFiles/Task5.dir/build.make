@@ -66,9 +66,48 @@ include CMakeFiles/Task5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Task5.dir/flags.make
 
+CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o: CMakeFiles/Task5.dir/flags.make
+CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o: ../bees/flockOfBees.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.cpp
+
+CMakeFiles/Task5.dir/bees/flockOfBees.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task5.dir/bees/flockOfBees.cpp.i"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.cpp > CMakeFiles/Task5.dir/bees/flockOfBees.cpp.i
+
+CMakeFiles/Task5.dir/bees/flockOfBees.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task5.dir/bees/flockOfBees.cpp.s"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.cpp -o CMakeFiles/Task5.dir/bees/flockOfBees.cpp.s
+
+CMakeFiles/Task5.dir/region/region.cpp.o: CMakeFiles/Task5.dir/flags.make
+CMakeFiles/Task5.dir/region/region.cpp.o: ../region/region.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Task5.dir/region/region.cpp.o"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task5.dir/region/region.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.cpp
+
+CMakeFiles/Task5.dir/region/region.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task5.dir/region/region.cpp.i"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.cpp > CMakeFiles/Task5.dir/region/region.cpp.i
+
+CMakeFiles/Task5.dir/region/region.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task5.dir/region/region.cpp.s"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.cpp -o CMakeFiles/Task5.dir/region/region.cpp.s
+
+CMakeFiles/Task5.dir/bees/beehive.cpp.o: CMakeFiles/Task5.dir/flags.make
+CMakeFiles/Task5.dir/bees/beehive.cpp.o: ../bees/beehive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Task5.dir/bees/beehive.cpp.o"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task5.dir/bees/beehive.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.cpp
+
+CMakeFiles/Task5.dir/bees/beehive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task5.dir/bees/beehive.cpp.i"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.cpp > CMakeFiles/Task5.dir/bees/beehive.cpp.i
+
+CMakeFiles/Task5.dir/bees/beehive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task5.dir/bees/beehive.cpp.s"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.cpp -o CMakeFiles/Task5.dir/bees/beehive.cpp.s
+
 CMakeFiles/Task5.dir/main.cpp.o: CMakeFiles/Task5.dir/flags.make
 CMakeFiles/Task5.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task5.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Task5.dir/main.cpp.o"
 	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task5.dir/main.cpp.o -c /Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp
 
 CMakeFiles/Task5.dir/main.cpp.i: cmake_force
@@ -81,19 +120,25 @@ CMakeFiles/Task5.dir/main.cpp.s: cmake_force
 
 # Object files for target Task5
 Task5_OBJECTS = \
+"CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o" \
+"CMakeFiles/Task5.dir/region/region.cpp.o" \
+"CMakeFiles/Task5.dir/bees/beehive.cpp.o" \
 "CMakeFiles/Task5.dir/main.cpp.o"
 
 # External object files for target Task5
 Task5_EXTERNAL_OBJECTS =
 
-Task5: CMakeFiles/Task5.dir/main.cpp.o
-Task5: CMakeFiles/Task5.dir/build.make
-Task5: CMakeFiles/Task5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task5"
+../bin/Task5: CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o
+../bin/Task5: CMakeFiles/Task5.dir/region/region.cpp.o
+../bin/Task5: CMakeFiles/Task5.dir/bees/beehive.cpp.o
+../bin/Task5: CMakeFiles/Task5.dir/main.cpp.o
+../bin/Task5: CMakeFiles/Task5.dir/build.make
+../bin/Task5: CMakeFiles/Task5.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/Task5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Task5.dir/build: Task5
+CMakeFiles/Task5.dir/build: ../bin/Task5
 .PHONY : CMakeFiles/Task5.dir/build
 
 CMakeFiles/Task5.dir/clean:

@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles/Task5.dir/bees/beehive.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o"
   "/Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles/Task5.dir/main.cpp.o"
+  "/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.cpp" "/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/CMakeFiles/Task5.dir/region/region.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

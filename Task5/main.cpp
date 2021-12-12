@@ -1,6 +1,10 @@
 #include <iostream>
+#include "bees/flockOfBees.h"
+#include "bees/beehive.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Beehive *b = new Beehive();
+    b->createFlocks();
+    b->startSearching();
     return 0;
 }

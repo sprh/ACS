@@ -38,8 +38,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="Task5">
-				<Option output="/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/Task5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug"/>
+				<Option output="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bin/Task5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,8 +63,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="Task5/fast">
-				<Option output="/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/Task5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug"/>
+				<Option output="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bin/Task5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sprh.t/Documents/HSEPI/ACS/Task5/cmake-build-debug/../bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -88,7 +88,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.cpp">
+			<Option target="Task5"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h">
+			<Option target="Task5"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.cpp">
+			<Option target="Task5"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h">
+			<Option target="Task5"/>
+		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp">
+			<Option target="Task5"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.cpp">
+			<Option target="Task5"/>
+		</Unit>
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h">
 			<Option target="Task5"/>
 		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/CMakeLists.txt">

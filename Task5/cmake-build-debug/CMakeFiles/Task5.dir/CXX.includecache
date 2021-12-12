@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
+iostream
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/iostream
+flockOfBees.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
+vector
+-
+thread
+-
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
+../region/region.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
+iostream
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/iostream
+thread
+-
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp
+iostream
+-
+bees/flockOfBees.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
+bees/beehive.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
+

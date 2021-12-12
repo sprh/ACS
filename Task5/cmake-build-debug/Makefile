@@ -129,6 +129,54 @@ Task5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/build
 .PHONY : Task5/fast
 
+bees/beehive.o: bees/beehive.cpp.o
+.PHONY : bees/beehive.o
+
+# target to build an object file
+bees/beehive.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/beehive.cpp.o
+.PHONY : bees/beehive.cpp.o
+
+bees/beehive.i: bees/beehive.cpp.i
+.PHONY : bees/beehive.i
+
+# target to preprocess a source file
+bees/beehive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/beehive.cpp.i
+.PHONY : bees/beehive.cpp.i
+
+bees/beehive.s: bees/beehive.cpp.s
+.PHONY : bees/beehive.s
+
+# target to generate assembly for a file
+bees/beehive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/beehive.cpp.s
+.PHONY : bees/beehive.cpp.s
+
+bees/flockOfBees.o: bees/flockOfBees.cpp.o
+.PHONY : bees/flockOfBees.o
+
+# target to build an object file
+bees/flockOfBees.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o
+.PHONY : bees/flockOfBees.cpp.o
+
+bees/flockOfBees.i: bees/flockOfBees.cpp.i
+.PHONY : bees/flockOfBees.i
+
+# target to preprocess a source file
+bees/flockOfBees.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/flockOfBees.cpp.i
+.PHONY : bees/flockOfBees.cpp.i
+
+bees/flockOfBees.s: bees/flockOfBees.cpp.s
+.PHONY : bees/flockOfBees.s
+
+# target to generate assembly for a file
+bees/flockOfBees.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/flockOfBees.cpp.s
+.PHONY : bees/flockOfBees.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+region/region.o: region/region.cpp.o
+.PHONY : region/region.o
+
+# target to build an object file
+region/region.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/region/region.cpp.o
+.PHONY : region/region.cpp.o
+
+region/region.i: region/region.cpp.i
+.PHONY : region/region.i
+
+# target to preprocess a source file
+region/region.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/region/region.cpp.i
+.PHONY : region/region.cpp.i
+
+region/region.s: region/region.cpp.s
+.PHONY : region/region.s
+
+# target to generate assembly for a file
+region/region.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/region/region.cpp.s
+.PHONY : region/region.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Task5"
+	@echo "... bees/beehive.o"
+	@echo "... bees/beehive.i"
+	@echo "... bees/beehive.s"
+	@echo "... bees/flockOfBees.o"
+	@echo "... bees/flockOfBees.i"
+	@echo "... bees/flockOfBees.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... region/region.o"
+	@echo "... region/region.i"
+	@echo "... region/region.s"
 .PHONY : help
 
 
