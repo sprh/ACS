@@ -13,22 +13,16 @@ beehive.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/iostream
-flockOfBees.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
+../region/region.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
 vector
 -
 thread
 -
+mutex
+-
 ../helpers/sleepTimeHelper.cpp
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp
-
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
-../region/region.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
-iostream
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/iostream
-thread
--
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp
 iostream

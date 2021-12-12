@@ -5,11 +5,14 @@
 class Region {
 private:
     int area_;
+    int bear_location_;
 
 public:
-    explicit Region(int area);
+    Region(const int &area, const int &bear_location);
 
-    int getArea();
+    [[nodiscard]] int getArea() const;
+
+    [[nodiscard]] bool hasBear(const int &at) const;
 };
 
 
