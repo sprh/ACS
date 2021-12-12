@@ -31,6 +31,6 @@ void Beehive::searchRegion(Region *region, const int &flock_index) {
                 break;
             }
         }
-        std::this_thread::sleep_for(std::chrono::milliseconds(25));
+        std::this_thread::sleep_for(std::chrono::milliseconds(getSleepTime()));
     }
 }
