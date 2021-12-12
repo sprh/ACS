@@ -12,13 +12,12 @@ set(BINARY_DIR "${CMAKE_BINARY_DIR}")
 # Source files list
 set(SOURCE_FILES
         # Headers
-        bees/flockOfBees.h
         region/region.h
         bees/beehive.h
         # Sources
-        bees/flockOfBees.cpp
         region/region.cpp
         bees/beehive.cpp
+        helpers/sleepTimeHelper.cpp
         main.cpp)
 
 add_executable(Task5 ${SOURCE_FILES})

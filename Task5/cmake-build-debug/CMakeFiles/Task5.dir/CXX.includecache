@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.cpp
+beehive.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/iostream
@@ -15,6 +19,8 @@ vector
 -
 thread
 -
+../helpers/sleepTimeHelper.cpp
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
 ../region/region.h
@@ -24,13 +30,9 @@ iostream
 thread
 -
 
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp
 iostream
 -
-bees/flockOfBees.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h
-bees/beehive.h
-/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
 
 /Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
 

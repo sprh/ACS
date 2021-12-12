@@ -5,14 +5,19 @@ CMakeFiles/Task5.dir/bees/beehive.cpp.o: \
  ../bees/beehive.cpp \
  ../bees/beehive.h \
  ../bees/flockOfBees.h \
+ ../helpers/sleepTimeHelper.cpp \
  ../region/region.h
 CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o: \
  ../bees/flockOfBees.cpp \
  ../bees/flockOfBees.h \
+ ../helpers/sleepTimeHelper.cpp \
  ../region/region.h
+CMakeFiles/Task5.dir/helpers/sleepTimeHelper.cpp.o: \
+ ../helpers/sleepTimeHelper.cpp
 CMakeFiles/Task5.dir/main.cpp.o: \
  ../bees/beehive.h \
  ../bees/flockOfBees.h \
+ ../helpers/sleepTimeHelper.cpp \
  ../main.cpp \
  ../region/region.h
 CMakeFiles/Task5.dir/region/region.cpp.o: \

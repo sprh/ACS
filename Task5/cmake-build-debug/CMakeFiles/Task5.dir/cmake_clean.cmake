@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "../bin/Task5"
   "../bin/Task5.pdb"
   "CMakeFiles/Task5.dir/bees/beehive.cpp.o"
-  "CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o"
+  "CMakeFiles/Task5.dir/helpers/sleepTimeHelper.cpp.o"
   "CMakeFiles/Task5.dir/main.cpp.o"
   "CMakeFiles/Task5.dir/region/region.cpp.o"
 )

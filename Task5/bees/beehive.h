@@ -2,17 +2,18 @@
 #define TASK5_BEEHIVE_H
 
 #include "iostream"
-#include "flockOfBees.h"
+#include "../region/region.h"
 #include <vector>
 #include <thread>
+#include "../helpers/sleepTimeHelper.cpp"
 
 class Beehive {
 private:
     std::vector<std::thread> threads_;
-    std::vector<FlockOfBees*> flocks_;
+
+    void searchRegion(Region *region, const int &flock_index);
 
 public:
-    void createFlocks();
     void startSearching();
 };
 

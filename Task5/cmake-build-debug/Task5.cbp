@@ -94,10 +94,7 @@
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h">
 			<Option target="Task5"/>
 		</Unit>
-		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.cpp">
-			<Option target="Task5"/>
-		</Unit>
-		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/flockOfBees.h">
+		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp">
 			<Option target="Task5"/>
 		</Unit>
 		<Unit filename="/Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp">

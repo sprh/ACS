@@ -153,29 +153,29 @@ bees/beehive.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/beehive.cpp.s
 .PHONY : bees/beehive.cpp.s
 
-bees/flockOfBees.o: bees/flockOfBees.cpp.o
-.PHONY : bees/flockOfBees.o
+helpers/sleepTimeHelper.o: helpers/sleepTimeHelper.cpp.o
+.PHONY : helpers/sleepTimeHelper.o
 
 # target to build an object file
-bees/flockOfBees.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/flockOfBees.cpp.o
-.PHONY : bees/flockOfBees.cpp.o
+helpers/sleepTimeHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/helpers/sleepTimeHelper.cpp.o
+.PHONY : helpers/sleepTimeHelper.cpp.o
 
-bees/flockOfBees.i: bees/flockOfBees.cpp.i
-.PHONY : bees/flockOfBees.i
+helpers/sleepTimeHelper.i: helpers/sleepTimeHelper.cpp.i
+.PHONY : helpers/sleepTimeHelper.i
 
 # target to preprocess a source file
-bees/flockOfBees.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/flockOfBees.cpp.i
-.PHONY : bees/flockOfBees.cpp.i
+helpers/sleepTimeHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/helpers/sleepTimeHelper.cpp.i
+.PHONY : helpers/sleepTimeHelper.cpp.i
 
-bees/flockOfBees.s: bees/flockOfBees.cpp.s
-.PHONY : bees/flockOfBees.s
+helpers/sleepTimeHelper.s: helpers/sleepTimeHelper.cpp.s
+.PHONY : helpers/sleepTimeHelper.s
 
 # target to generate assembly for a file
-bees/flockOfBees.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/bees/flockOfBees.cpp.s
-.PHONY : bees/flockOfBees.cpp.s
+helpers/sleepTimeHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task5.dir/build.make CMakeFiles/Task5.dir/helpers/sleepTimeHelper.cpp.s
+.PHONY : helpers/sleepTimeHelper.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -237,9 +237,9 @@ help:
 	@echo "... bees/beehive.o"
 	@echo "... bees/beehive.i"
 	@echo "... bees/beehive.s"
-	@echo "... bees/flockOfBees.o"
-	@echo "... bees/flockOfBees.i"
-	@echo "... bees/flockOfBees.s"
+	@echo "... helpers/sleepTimeHelper.o"
+	@echo "... helpers/sleepTimeHelper.i"
+	@echo "... helpers/sleepTimeHelper.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

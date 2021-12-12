@@ -1,16 +1,20 @@
 #include "beehive.h"
 
-
-void Beehive::createFlocks() {
-    auto *fl1 = new FlockOfBees(1, "1");
-    auto *fl2 = new FlockOfBees(1, "2");
-    flocks_.push_back(fl1);
-    flocks_.push_back(fl2);
-}
-
 void Beehive::startSearching() {
     Region *region1 = new Region(10);
-    Region *region2 = new Region(10);
-    threads_.push_back(flocks_.at(0)->searchRegion(region1));
-    threads_.push_back(flocks_.at(1)->searchRegion(region2));
+    for (int i = 0; i < 2; ++i) {
+        std::thread tr(&Beehive::searchRegion, this, region1, i);
+        threads_.emplace_back(std::move(tr));
+    }
+
+    for(auto& thr : threads_) {
+        thr.join();
+    }
+}
+
+void Beehive::searchRegion(Region *region, const int &flock_index) {
+    for (int i = 0; i < region->getArea(); ++i) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(getSleepTime()));
+        std::cout << "[Flock " << flock_index << "] " << "in i = " << i << " " << '\n';
+    }
 }
