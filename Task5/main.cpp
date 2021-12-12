@@ -21,6 +21,13 @@ std::vector<Region*> createRegions(const int &area, const int &regions_count, co
     return regions;
 }
 
+std::vector<Region*> createRandomRegions() {
+    int area = rand() % 1000 + 1;
+    int regions_count = rand() % area + 1;
+    int bear_location = rand() % area + 1;
+    return createRegions(area, regions_count, bear_location);
+}
+
 int main(int argc, char* argv[]) {
     if (argc != 5 && argc != 2) {
         errMessage();
@@ -45,8 +52,8 @@ int main(int argc, char* argv[]) {
             } else if (bear_location > area) {
                 std::cout << "Bear should be located in the area (bear_location <= area)!";
                 return 2;
-            } else if (area >= 10000) {
-                std::cout << "incorrect area. Set 0 < area <= 10000\n";
+            } else if (area >= 1000) {
+                std::cout << "incorrect area. Set 0 < area <= 1000\n";
             }
             regions = createRegions(area, regions_count, bear_location);
         } catch (std::exception &e) {
@@ -55,7 +62,7 @@ int main(int argc, char* argv[]) {
             return 5;
         }
     } else if (!strcmp(argv[1], "-r")) {
-
+        regions = createRandomRegions();
     } else {
         errMessage();
         return 1;
