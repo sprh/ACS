@@ -13,6 +13,7 @@ class Shape:
     def to_string(self) -> str:
         return "It is a %s shapes" % self.color
 
+    # Returns an area of a shape.
     def area(self) -> float:
         return 0.0
 
