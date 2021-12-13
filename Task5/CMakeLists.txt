@@ -6,6 +6,7 @@ project(Task5 LANGUAGES CXX)
 
 set(BUILD_DIR "${CMAKE_BINARY_DIR}")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${BUILD_DIR}/../bin")
+set(CMAKE_C_FLAGS "-pthread")
 
 set(BINARY_DIR "${CMAKE_BINARY_DIR}")
 

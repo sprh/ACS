@@ -14,9 +14,16 @@ void errMessage() {
 std::vector<Region*> createRegions(const int &area, const int &regions_count, const int &bear_location) {
     std::vector<Region*> regions;
     int size = area / regions_count;
+    int additionalSize = area % regions_count;
+    int current_area = 0;
     for (int i = 0; i < regions_count; ++i) {
-        int region_size = size + (i == regions_count - 1 && area % regions_count != 0 ? area % regions_count : 0);
-        int bear = bear_location > size * i && bear_location < size * i + region_size ? bear_location - size * i : -1;
+        int region_size = size;
+        if (additionalSize != 0) {
+            ++region_size;
+            --additionalSize;
+        }
+        int bear = bear_location > current_area && bear_location <= current_area + region_size ? bear_location - current_area : -1;
+        current_area += region_size;
         regions.push_back(new Region(region_size, bear));
     }
     return regions;
@@ -27,6 +34,7 @@ std::vector<Region*> createRandomRegions() {
     int area = rand() % 1000 + 1;
     int regions_count = rand() % area + 1;
     int bear_location = rand() % area + 1;
+    std::cout << "Generated data: area = " << area << ", regionsCount = " << regions_count << ", bearLocation = " << bear_location << "\n";
     return createRegions(area, regions_count, bear_location);
 }
 
@@ -37,7 +45,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    clock_t start_time = clock();
+    srand(time(0));
     std::cout << "Start\n";
     std::vector<Region*> regions;
 
@@ -55,24 +63,24 @@ int main(int argc, char* argv[]) {
             } else if (bear_location > area) {
                 std::cout << "Bear should be located in the area (bear_location <= area)!";
                 return 2;
-            } else if (area >= 1000) {
+            } else if (area > 1000) {
                 std::cout << "incorrect area. Set 0 < area <= 1000\n";
+                return 2;
             }
             regions = createRegions(area, regions_count, bear_location);
         } catch (std::exception &e) {
             std::cout << "Area, regions_count and bear's location should be integers!\n"
                          "Failed with error: " << e.what();
-            return 5;
+            return 3;
         }
     } else if (!strcmp(argv[1], "-r")) {
         regions = createRandomRegions();
     } else {
         errMessage();
-        return 1;
+        return 4;
     }
     auto *beehive = new Beehive(regions);
     beehive->startSearching();
-    std::cout << "Stop in "<< ((double)(clock() - start_time)) / CLOCKS_PER_SEC;
+    std::cout << "Stop in "<< clock() / 10000.0;
     return 0;
 }
-
