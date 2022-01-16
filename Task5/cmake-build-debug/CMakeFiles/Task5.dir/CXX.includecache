@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
+iostream
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/iostream
+../region/region.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
+vector
+-
+thread
+-
+mutex
+-
+../helpers/sleepTimeHelper.cpp
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/helpers/sleepTimeHelper.cpp
+iostream
+-
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/main.cpp
+iostream
+-
+bees/beehive.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/bees/beehive.h
+cstring
+-
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task5/region/region.h
+
