@@ -1,0 +1,4 @@
+Container contains 3 elements.
+1: It is a purple rectangle: x = 1, y = 11, x = 12, y = 4. Area = 38.5.
+2: It is a dark_blue triangle: x = 1, y = 2, x = 3, y = 4, x = 15, y = 6. Area = 9.99999999999997.
+3: It is a light_blue circle: center: x = 2, y = 3, radius: 1. Area = 3.141592653589793.

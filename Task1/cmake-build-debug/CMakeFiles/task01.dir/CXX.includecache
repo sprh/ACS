@@ -6,6 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/circle.h
+fstream
+-
+rnd.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/rnd.h
+math.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/math.h
+extensions.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+point.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/container.h
+shape.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.h
+
+
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
 iostream
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/iostream
@@ -38,3 +55,24 @@ cstdlib
 extensions.h
 /Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
 
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/shape.h
+rectangle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/rectangle.h
+triangle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.h
+circle.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/circle.h
+extensions.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/triangle.h
+fstream
+-
+rnd.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/rnd.h
+math.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/math.h
+extensions.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/extensions.h
+point.h
+/Users/sprh.t/Documents/HSEPI/ACS/Task1/point.h
